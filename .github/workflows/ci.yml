@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
@@ -51,7 +51,7 @@ jobs:
     needs: lint
     steps:
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
@@ -79,7 +79,7 @@ jobs:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     steps:
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
