@@ -1,0 +1,47 @@
+name: Daily NUVIEW Intelligence Refresh
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests tabulator plotly pandas tqdm pydantic
+
+      - name: Run Global Intelligence Pipeline
+        env:
+          # API Keys for authenticated data access
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+          GRANTS_GOV_API: ${{ secrets.GRANTS_GOV_API }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          # Check API integration status
+          python scripts/global_scraper.py --check-integrations
+          
+          # Run existing scrapers
+          python -m scripts.scrape_all
+          python -m scripts.generate_programs
+          python -m scripts.competitor_tracker
+
+      - name: Commit & Deploy Intel
+        run: |
+          git config user.name "NUVIEW Bot"
+          git config user.email "bot@nuview.space"
+          git add data/raw/ data/processed/ data/history/
+          git diff --staged --quiet || git commit -m "Daily intel refresh: $(date)"
+          git push

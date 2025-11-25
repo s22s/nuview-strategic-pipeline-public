@@ -1,0 +1,506 @@
+<!-- 
+  NUVIEW Strategic Pipeline - "How It Works" Tab
+  ===============================================
+  
+  INTEGRATION INSTRUCTIONS:
+  
+  1. COPY/PASTE METHOD (for embedding in existing HTML):
+     - Copy ONLY the content from <div class="how-it-works-tab"> to </div> (near bottom of file)
+     - Paste it just before the closing </body> tag in your dashboard HTML
+     - Also copy the <style> and <script> sections into your HTML
+     - Ensure it's after all main content
+  
+  2. TEMPLATE INCLUDE METHOD (Recommended):
+     - If using a template engine (Jinja2, EJS, etc.):
+       {% include 'ui/bottom_left_tab.html' %}
+     - If using PHP:
+       <?php include 'ui/bottom_left_tab.html'; ?>
+     - If using React/Vue:
+       Import and render as a component
+  
+  3. STANDALONE/IFRAME METHOD:
+     - This file can be opened directly in a browser for testing
+     - Or embed as iframe: <iframe src="ui/bottom_left_tab.html" style="position:fixed;bottom:20px;left:20px;width:320px;height:auto;border:none;z-index:1000;"></iframe>
+  
+  STYLING NOTES:
+  - This component uses fixed positioning (bottom-left corner)
+  - Adjust z-index if conflicts with existing elements
+  - Colors use NUVIEW branding (#dc2626 red, dark slate backgrounds)
+  - Fully responsive and accessible (keyboard navigation, ARIA labels)
+  
+  CUSTOMIZATION:
+  - To change position: Modify "bottom" and "left" in .how-it-works-tab
+  - To change colors: Update color values in :root CSS variables
+  - To change size: Adjust width/max-width in .how-it-works-content
+  - To change doc link: Update href in "Read Full Documentation" link (line ~456)
+  
+  For full documentation, see: docs/how_it_works_tab.md
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How It Works - NUVIEW Strategic Pipeline</title>
+  <style>
+    /* CSS Variables for easy theming */
+    :root {
+      --nuview-red: #dc2626;
+      --nuview-red-dark: #991b1b;
+      --slate-900: #0f172a;
+      --slate-800: #1e293b;
+      --slate-700: #334155;
+      --slate-400: #94a3b8;
+      --slate-100: #f1f5f9;
+      --white-alpha-10: rgba(255, 255, 255, 0.1);
+      --white-alpha-20: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Container - Fixed bottom-left positioning */
+    .how-it-works-tab {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1000;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Toggle Button */
+    .how-it-works-toggle {
+      background: linear-gradient(145deg, var(--nuview-red), var(--nuview-red-dark));
+      color: white;
+      border: 1px solid var(--white-alpha-20);
+      border-radius: 8px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 13px;
+      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .how-it-works-toggle:hover {
+      background: linear-gradient(145deg, #ef4444, var(--nuview-red));
+      box-shadow: 0 6px 16px rgba(220, 38, 38, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .how-it-works-toggle:active {
+      transform: translateY(0);
+    }
+
+    /* Icon in button */
+    .toggle-icon {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    .toggle-icon.expanded {
+      transform: rotate(180deg);
+    }
+
+    /* Content Panel */
+    .how-it-works-content {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      width: 420px;
+      max-width: calc(100vw - 40px);
+      max-height: 70vh;
+      background: rgba(15, 23, 42, 0.98);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--white-alpha-20);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+
+    .how-it-works-content.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    /* Header */
+    .how-it-works-header {
+      background: linear-gradient(145deg, var(--slate-800), var(--slate-900));
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--white-alpha-10);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .how-it-works-title {
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .close-btn {
+      background: transparent;
+      border: none;
+      color: var(--slate-400);
+      cursor: pointer;
+      padding: 4px;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+
+    .close-btn:hover {
+      background: var(--white-alpha-10);
+      color: white;
+    }
+
+    /* Body */
+    .how-it-works-body {
+      padding: 20px;
+      max-height: calc(70vh - 80px);
+      overflow-y: auto;
+      color: var(--slate-100);
+    }
+
+    /* Scrollbar styling */
+    .how-it-works-body::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .how-it-works-body::-webkit-scrollbar-track {
+      background: var(--slate-900);
+    }
+
+    .how-it-works-body::-webkit-scrollbar-thumb {
+      background: var(--slate-700);
+      border-radius: 3px;
+    }
+
+    .how-it-works-body::-webkit-scrollbar-thumb:hover {
+      background: var(--slate-400);
+    }
+
+    /* Section Styling */
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      color: var(--nuview-red);
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .section-content {
+      color: var(--slate-100);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .section-content ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }
+
+    .section-content li {
+      margin: 4px 0;
+    }
+
+    .section-content strong {
+      color: white;
+    }
+
+    /* Collapsible Details */
+    details {
+      margin: 12px 0;
+      border: 1px solid var(--white-alpha-10);
+      border-radius: 6px;
+      background: rgba(30, 41, 59, 0.5);
+    }
+
+    summary {
+      padding: 10px 12px;
+      cursor: pointer;
+      font-weight: 600;
+      color: white;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s ease;
+    }
+
+    summary:hover {
+      background: var(--white-alpha-10);
+    }
+
+    summary::marker {
+      color: var(--nuview-red);
+    }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--white-alpha-10);
+    }
+
+    .details-content {
+      padding: 12px;
+      font-size: 12px;
+      color: var(--slate-400);
+    }
+
+    /* Code blocks */
+    code {
+      background: var(--slate-900);
+      color: #10b981;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+    }
+
+    /* Link styling */
+    a {
+      color: var(--nuview-red);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      background: var(--nuview-red);
+      color: white;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-left: 4px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .how-it-works-tab {
+        left: 10px;
+        bottom: 10px;
+      }
+
+      .how-it-works-content {
+        width: calc(100vw - 20px);
+        bottom: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="how-it-works-tab">
+    <!-- Toggle Button -->
+    <button 
+      class="how-it-works-toggle" 
+      onclick="toggleHowItWorks()"
+      aria-label="Toggle How It Works panel"
+      aria-expanded="false"
+      id="how-it-works-toggle-btn"
+    >
+      <svg class="toggle-icon" id="toggle-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+      </svg>
+      How It Works
+    </button>
+
+    <!-- Content Panel -->
+    <div class="how-it-works-content" id="how-it-works-content" role="dialog" aria-labelledby="how-it-works-title">
+      <div class="how-it-works-header">
+        <h3 class="how-it-works-title" id="how-it-works-title">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+          </svg>
+          How It Works
+          <span class="badge">v3.0</span>
+        </h3>
+        <button class="close-btn" onclick="toggleHowItWorks()" aria-label="Close">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="how-it-works-body">
+        <!-- Quick Overview -->
+        <div class="section">
+          <div class="section-title">⚡ Quick Overview</div>
+          <div class="section-content">
+            The NUVIEW Strategic Pipeline is a <strong>fully automated business intelligence platform</strong> that continuously monitors, analyzes, and prioritizes global opportunities in topographic mapping, geospatial analytics, and data services.
+          </div>
+        </div>
+
+        <!-- How It Works Steps -->
+        <details>
+          <summary>🔍 1. Data Scraping Layer</summary>
+          <div class="details-content">
+            <strong>34 specialized scrapers</strong> continuously monitor various data sources:
+            <ul>
+              <li><strong>Federal:</strong> SAM.gov, USGS, NASA</li>
+              <li><strong>International:</strong> World Bank, 34+ country portals</li>
+              <li><strong>Research & Commercial:</strong> Academic, industry RFPs</li>
+            </ul>
+            <strong>Features:</strong>
+            <ul>
+              <li>✅ 100% free/public APIs (no billing)</li>
+              <li>✅ Automatic retry logic</li>
+              <li>✅ Data provenance tracking</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>✅ 2. Validation & Quality Control</summary>
+          <div class="details-content">
+            Every scraped record goes through multi-stage validation:
+            <ul>
+              <li><strong>Schema Validation:</strong> Required fields check</li>
+              <li><strong>Data Type Checking:</strong> Dates, URLs, amounts</li>
+              <li><strong>Duplicate Detection:</strong> Remove redundant entries</li>
+              <li><strong>Quality Score:</strong> 0-100 confidence rating</li>
+            </ul>
+            <strong>100% QC pass requirement</strong> ensures only validated records reach the dashboard.
+          </div>
+        </details>
+
+        <details>
+          <summary>🎯 3. Intelligence Scoring</summary>
+          <div class="details-content">
+            Each opportunity is scored across multiple dimensions:
+            <ul>
+              <li><strong>Strategic Fit (0-40 pts):</strong> Alignment with NUVIEW business pillars</li>
+              <li><strong>Market Size (0-30 pts):</strong> Contract value and opportunity scale</li>
+              <li><strong>Urgency (0-20 pts):</strong> Deadline proximity and competition</li>
+              <li><strong>Data Quality (0-10 pts):</strong> Information completeness</li>
+            </ul>
+            <strong>Final Score:</strong> High (70+), Medium (40-69), Low (&lt;40)
+          </div>
+        </details>
+
+        <details>
+          <summary>📊 4. Output Generation</summary>
+          <div class="details-content">
+            <strong>Outputs include:</strong>
+            <ul>
+              <li><strong>JSON Datasets:</strong> opportunities_space.json, opportunities_spatial.json, etc.</li>
+              <li><strong>Dashboard Assets:</strong> Real-time KPIs, tables, charts, heatmaps</li>
+              <li><strong>API Endpoints:</strong> Accessible via GitHub Pages</li>
+            </ul>
+            <strong>Update Frequency:</strong> Daily at 06:00 UTC + on-demand via "Live Scrape" button
+          </div>
+        </details>
+
+        <!-- Running Locally -->
+        <details>
+          <summary>💻 Running Locally</summary>
+          <div class="details-content">
+            <strong>Quick Start:</strong>
+            <ol>
+              <li>Clone: <code>git clone https://github.com/{username}/{repository}.git</code></li>
+              <li>Install: <code>pip install -r requirements.txt</code></li>
+              <li>Run: <code>./setup_and_run.sh</code></li>
+              <li>Preview: <code>python -m http.server 8000</code></li>
+            </ol>
+            <strong>Manual Commands:</strong>
+            <ul>
+              <li><code>python scripts/run_scrapers.py --all</code></li>
+              <li><code>python scripts/validate_data.py</code></li>
+              <li><code>python scripts/generate_dashboard_data.py</code></li>
+            </ul>
+          </div>
+        </details>
+
+        <!-- Cost Guardrails -->
+        <div class="section" style="margin-top: 20px;">
+          <div class="section-title">💚 100% Cost-Free</div>
+          <div class="section-content">
+            <ul>
+              <li>✅ All scrapers use only free/public APIs</li>
+              <li>✅ No billing accounts or payment methods</li>
+              <li>✅ GitHub Actions free tier (2,000 min/month)</li>
+              <li>✅ GitHub Pages hosting (free for public repos)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Documentation Link -->
+        <div class="section" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--white-alpha-10);">
+          <div class="section-content" style="text-align: center;">
+            📚 <a href="/docs/how_it_works_tab.md" target="_blank">Read Full Documentation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Toggle function
+    function toggleHowItWorks() {
+      const content = document.getElementById('how-it-works-content');
+      const button = document.getElementById('how-it-works-toggle-btn');
+      const icon = document.getElementById('toggle-icon');
+      const isVisible = content.classList.contains('visible');
+
+      if (isVisible) {
+        content.classList.remove('visible');
+        button.setAttribute('aria-expanded', 'false');
+        icon.classList.remove('expanded');
+      } else {
+        content.classList.add('visible');
+        button.setAttribute('aria-expanded', 'true');
+        icon.classList.add('expanded');
+      }
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        const content = document.getElementById('how-it-works-content');
+        if (content.classList.contains('visible')) {
+          toggleHowItWorks();
+        }
+      }
+    });
+
+    // Close when clicking outside
+    document.addEventListener('click', function(event) {
+      const tab = document.querySelector('.how-it-works-tab');
+      const content = document.getElementById('how-it-works-content');
+      
+      if (content.classList.contains('visible') && !tab.contains(event.target)) {
+        toggleHowItWorks();
+      }
+    });
+  </script>
+</body>
+</html>

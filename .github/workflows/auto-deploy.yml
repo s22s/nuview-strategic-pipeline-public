@@ -1,0 +1,99 @@
+# Deploy to gh-pages using the automatic GITHUB_TOKEN (no PAT required, no tokens embedded)
+name: Full Auto Deploy Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Give the workflow permission to write repo contents and pages (required for push)
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # allow git push to use the built-in GITHUB_TOKEN
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python processing scripts
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+        run: |
+          python scripts/full_qc_audit.py || echo "Skipping full_qc_audit.py"
+          python scripts/generate_programs.py || echo "Skipping generate_programs.py"
+
+      - name: Prepare build output for deployment
+        run: |
+          # Copy dashboard to public directory for deployment
+          mkdir -p public
+          cp -r dashboard/* public/ || echo "No dashboard to copy"
+          # Also copy root index.html if it exists
+          if [ -f index.html ]; then cp index.html public/; fi
+          # Ensure we have at least something to deploy
+          if [ ! -f public/index.html ]; then
+            echo "<!DOCTYPE html><html><head><title>NUVIEW Dashboard</title></head><body><h1>Dashboard Building...</h1></body></html>" > public/index.html
+          fi
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Publish to gh-pages (no tokens embedded)
+        run: |
+          # Verify public directory exists before saving
+          if [ ! -d "public" ]; then
+            echo "Error: public directory does not exist"
+            exit 1
+          fi
+
+          # Save public directory to temp (for deployment)
+          cp -r public /tmp/public_deploy
+
+          # Clean working directory of any uncommitted changes from processing scripts
+          # Check if there are changes first
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Cleaning uncommitted changes..."
+            git checkout -- .
+            git clean -fd
+          fi
+
+          # Fail-safe: fetch remote branch if exists
+          git fetch origin gh-pages || true
+
+          if git ls-remote --exit-code --heads origin gh-pages; then
+            git checkout gh-pages
+            # clean current tree
+            git rm -rf . || true
+          else
+            # create orphan branch for gh-pages
+            git checkout --orphan gh-pages
+            git rm -rf . || true
+          fi
+
+          # Copy build output into repo root from temp
+          cp -a /tmp/public_deploy/. .
+
+          # Commit and push using the GITHUB_TOKEN credentials provided by actions/checkout (persist-credentials: true)
+          git add -A
+          git commit -m "Deploy site (GitHub Actions)" || echo "No changes to commit"
+          git push origin gh-pages --force

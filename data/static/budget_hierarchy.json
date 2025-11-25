@@ -1,0 +1,5 @@
+{
+  "USGS": {"budget_2025": 165000000, "programs": ["3DEP"]},
+  "State of Alaska": {"budget_2025": 5000000, "programs": ["Statewide LiDAR Hosting"]},
+  "State of Florida": {"budget_2025": 22000000, "programs": ["Resiliency Mapping Portal"]}
+}

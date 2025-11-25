@@ -1,0 +1,42 @@
+name: "Daily Ops - Pre-deploy Verification"
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  pre-deploy-verification:
+    name: Pre-deploy verification
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies & logging helper
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt || true
+          python -m pip install python-json-logger
+
+      - name: 🔬 Run Repository Verification (Pre-Deploy Gate)
+        run: |
+          python verify_deployment.py
+
+      - name: 🌐 Check Multilingual Keywords (Data Assurance Gate)
+        run: |
+          if [ ! -f "config/keywords_multilingual.py" ]; then
+            echo "::error file=config/keywords_multilingual.py::The multilingual keyword file is missing. Global scoring will be limited.";
+            exit 1;
+          fi
