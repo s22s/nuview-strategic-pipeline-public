@@ -1,0 +1,129 @@
+rank,priority_score,title,agency,pillar,category,value_usd,fiscal_status,urgency,days_until,url
+1,90,USGS 3DEP LiDAR Acquisition 2026 - Phase 1,USGS,Federal,DaaS,217000000,Active,urgent,28,https://sam.gov
+2,80,DIU Spaceborne LiDAR BAA,DIU,Federal,R&D,15000000,Active,urgent,15,https://sam.gov
+3,80,ESA Copernicus Expansion - Elevation Services,ESA,International,DaaS,28000000,Active,near,75,https://sam.gov
+4,80,NGA Commercial Space-Based 3D Mapping,NGA,Federal,DaaS,45000000,Active,near,40,https://sam.gov
+5,80,FEMA Risk MAP Elevation Data Collection,FEMA,Federal,DaaS,28000000,Active,near,65,https://sam.gov
+6,80,USFS National Forest LiDAR Inventory,USDA Forest Service,Federal,DaaS,22000000,Active,near,80,https://sam.gov
+7,80,NOAA Coastal Topobathy LiDAR Services,NOAA,Federal,DaaS,18000000,Active,near,55,https://sam.gov
+8,80,CSA Arctic Topographic Mapping Program,CSA,International,DaaS,22000000,Active,near,85,https://sam.gov
+9,80,California Statewide LiDAR Program - Phase 2,State of California,State/Local,DaaS,45000000,Forecast,near,75,https://sam.gov
+10,80,Maxar 3D Geospatial Intelligence - LiDAR Integration,Maxar,Commercial,DaaS,35000000,Active,near,60,https://sam.gov
+11,80,Chile National Topographic Programme,CNIDEP,International,DaaS,42000000,Active,near,89,https://sam.gov
+12,80,South Africa National Topographic Programme,SANSA,International,DaaS,35000000,Active,near,85,https://sam.gov
+13,80,Turkey National Topographic Programme,TUASA,International,DaaS,38000000,Active,near,87,https://sam.gov
+14,80,Sweden National Topographic Programme,SNSA,International,DaaS,32000000,Active,near,86,https://sam.gov
+15,80,Norway National Topographic Programme,NSC,International,DaaS,29000000,Active,near,86,https://sam.gov
+16,80,Argentina National Topographic Programme,IGN,International,DaaS,38000000,Active,near,89,https://sam.gov
+17,80,Thailand National Topographic Programme,GISTDA,International,DaaS,40000000,Active,near,89,https://sam.gov
+18,80,Italy National Topographic Programme,ASI,International,DaaS,34000000,Active,near,87,https://sam.gov
+19,75,AWS Earth on AWS - Elevation Data Partnership,Amazon Web Services,Commercial,Platform,25000000,Active,near,70,https://sam.gov
+20,75,ESA Digital Twin Earth LiDAR Platform,ESA,International,Platform,35000000,Active,near,45,https://sam.gov
+21,75,USACE National DEM Production Contract,USACE,Federal,DaaS,32000000,Forecast,near,70,https://sam.gov
+22,75,USGS National Map Topographic Data Services,USGS,Federal,DaaS,45000000,Active,near,60,https://sam.gov
+23,75,Google Earth Engine Global DEM Initiative,Google,Commercial,Platform,30000000,Active,near,80,https://sam.gov
+24,75,Planet Fusion Platform - Elevation Layer Integration,Planet Labs,Commercial,Platform,18000000,Active,near,75,https://sam.gov
+25,75,Microsoft Planetary Computer Terrain Services,Microsoft,Commercial,Platform,22000000,Active,near,85,https://sam.gov
+26,75,NYC 3D Building & Terrain Model Update,NYC Planning,State/Local,DaaS,12000000,Active,near,65,https://sam.gov
+27,70,DOE Terrestrial Ecosystem LiDAR Characterization,DOE,Research,R&D,10000000,Active,near,85,https://sam.gov
+28,70,CNSA Belt & Road Topographic Mapping,CNSA,International,DaaS,40000000,Forecast,future,130,https://sam.gov
+29,70,UKSA Climate & Environment LiDAR Services,UKSA,International,DaaS,20000000,Forecast,future,90,https://sam.gov
+30,70,ISRO National Topographic Mapping - LiDAR Phase,ISRO,International,DaaS,25000000,Forecast,future,110,https://sam.gov
+31,70,Florida Coastal Mapping - Topobathy LiDAR,State of Florida,State/Local,DaaS,32000000,Forecast,future,100,https://sam.gov
+32,70,National DEM Refresh,Geoscience Australia,International,DaaS,45000000,Forecast,future,110,https://sam.gov
+33,70,New Zealand National Topographic Programme,LINZ,International,DaaS,28000000,Active,future,114,https://sam.gov
+34,70,South Korea National Topographic Programme,KARI,International,DaaS,32000000,Active,future,114,https://sam.gov
+35,70,Egypt National Topographic Programme,NARSS,International,DaaS,24000000,Active,future,113,https://sam.gov
+36,70,UAE National Topographic Programme,EIAST,International,DaaS,52000000,Active,future,104,https://sam.gov
+37,70,Saudi Arabia National Topographic Programme,KACST,International,DaaS,65000000,Active,future,110,https://sam.gov
+38,70,Nigeria National Topographic Programme,NASRDA,International,DaaS,28000000,Active,future,114,https://sam.gov
+39,70,Israel National Topographic Programme,ISA,International,DaaS,22000000,Active,future,117,https://sam.gov
+40,70,Mexico National Topographic Programme,INEGI,International,DaaS,55000000,Active,future,116,https://sam.gov
+41,70,Poland National Topographic Programme,CBK,International,DaaS,26000000,Active,future,115,https://sam.gov
+42,70,Belgium National Topographic Programme,BELSPO,International,DaaS,19000000,Active,future,92,https://sam.gov
+43,70,IBGE National Topographic Mapping Program,IBGE,International,DaaS,120000000,Active,future,95,https://sam.gov
+44,70,Coastal Zone Elevation Programme,IBGE,International,DaaS,72000000,Active,future,110,https://sam.gov
+45,70,France National Topographic Programme,CNES,International,DaaS,48000000,Active,future,92,https://sam.gov
+46,70,French Overseas Territories,CNES,International,DaaS,32000000,Forecast,future,135,https://sam.gov
+47,70,Finland National Topographic Programme,FMI,International,DaaS,24000000,Active,future,110,https://sam.gov
+48,70,Spain National Topographic Programme,CDTI,International,DaaS,36000000,Active,future,106,https://sam.gov
+49,70,Philippines National Topographic Programme,PhilSA,International,DaaS,38000000,Active,future,101,https://sam.gov
+50,70,Vietnam National Topographic Programme,VNREDSAT,International,DaaS,30000000,Active,future,106,https://sam.gov
+51,70,Pakistan National Topographic Programme,SUPARCO,International,DaaS,28000000,Active,future,102,https://sam.gov
+52,70,Malaysia National Topographic Programme,MYSA,International,DaaS,33000000,Active,future,106,https://sam.gov
+53,70,Bangladesh National Topographic Programme,SPARRSO,International,DaaS,25000000,Active,future,102,https://sam.gov
+54,70,Peru National Topographic Programme,IGN Peru,International,DaaS,35000000,Active,future,108,https://sam.gov
+55,70,Indonesia National Topographic Programme,BRIN,International,DaaS,55000000,Active,future,102,https://sam.gov
+56,70,Switzerland National Topographic Programme,SSO,International,DaaS,31000000,Active,future,114,https://sam.gov
+57,70,Austria National Topographic Programme,FFG,International,DaaS,23000000,Active,future,90,https://sam.gov
+58,70,Netherlands National Topographic Programme,NSO,International,DaaS,27000000,Active,future,112,https://sam.gov
+59,70,Colombia National Topographic Programme,IGAC,International,DaaS,42000000,Active,future,92,https://sam.gov
+60,65,BLM Public Lands Topographic Mapping,BLM,Federal,DaaS,16000000,Forecast,future,95,https://sam.gov
+61,65,ESRI Living Atlas Premium Elevation Layer,ESRI,Commercial,Platform,20000000,Forecast,future,95,https://sam.gov
+62,65,NASA ROSES ICESat-2 Science Team Augmentation,NASA,Federal,R&D,12000000,Active,near,45,https://sam.gov
+63,65,Texas Strategic Mapping Program - Statewide DEM,State of Texas,State/Local,DaaS,38000000,Forecast,future,90,https://sam.gov
+64,65,World Bank Climate Resilience Mapping Initiative,World Bank,International,DaaS,50000000,Forecast,future,130,https://sam.gov
+65,65,Yucatan Peninsula Mapping,INEGI,International,DaaS,42000000,Forecast,future,115,https://sam.gov
+66,65,Canary Islands Survey,CDTI,International,DaaS,25000000,Forecast,future,140,https://sam.gov
+67,65,Java Island Urban Planning,BRIN,International,DaaS,36000000,Forecast,future,150,https://sam.gov
+68,65,Rotterdam Port Expansion,NSO,International,DaaS,21000000,Forecast,future,120,https://sam.gov
+69,65,Coffee Region Terrain Study,IGAC,International,DaaS,29000000,Forecast,future,140,https://sam.gov
+70,60,NSF EarthCube LiDAR Data Integration,NSF,Research,R&D,8000000,Active,near,75,https://sam.gov
+71,60,NSF Critical Zone Observatory - Topographic Mapping,NSF,Research,R&D,12000000,Forecast,future,95,https://sam.gov
+72,60,ASI COSMO-SkyMed Topographic Enhancement,ASI,International,R&D,16000000,Forecast,future,105,https://sam.gov
+73,60,JPL Earth Surface & Interior Science - LiDAR,Caltech/JPL,Research,R&D,18000000,Forecast,future,90,https://sam.gov
+74,60,MIT Lincoln Lab Space-Based Sensing Partnership,MIT,Research,R&D,15000000,Forecast,future,110,https://sam.gov
+75,60,Horizon Europe Space-Based Earth Monitoring,EU Commission,Research,R&D,35000000,Forecast,future,120,https://sam.gov
+76,60,DLR TanDEM-X Follow-On LiDAR Mission,DLR,International,R&D,30000000,Forecast,future,100,https://sam.gov
+77,60,NASA Commercial Spaceborne LiDAR Partnership,NASA,Federal,R&D,25000000,Forecast,future,90,https://sam.gov
+78,60,JAXA ALOS-4 Topographic Mission Support,JAXA,International,R&D,18000000,Forecast,future,120,https://sam.gov
+79,60,Coastal Barrier Reef Mapping,Geoscience Australia,International,R&D,32000000,Forecast,future,125,https://sam.gov
+80,60,New Zealand Regional Elevation Survey,LINZ,International,R&D,22000000,Forecast,future,128,https://sam.gov
+81,60,Chile Regional Elevation Survey,CNIDEP,International,R&D,31000000,Forecast,future,126,https://sam.gov
+82,60,South Africa Regional Elevation Survey,SANSA,International,R&D,27000000,Forecast,future,107,https://sam.gov
+83,60,Cape Town Urban Update,SANSA,International,DaaS,24000000,Forecast,future,125,https://sam.gov
+84,60,South Korea Regional Elevation Survey,KARI,International,R&D,28000000,Forecast,future,117,https://sam.gov
+85,60,Smart City Infrastructure,KARI,International,DaaS,25000000,Forecast,future,130,https://sam.gov
+86,60,Egypt Regional Elevation Survey,NARSS,International,R&D,19000000,Forecast,future,124,https://sam.gov
+87,60,UAE Regional Elevation Survey,EIAST,International,R&D,38000000,Forecast,future,106,https://sam.gov
+88,60,Saudi Arabia Regional Elevation Survey,KACST,International,R&D,45000000,Forecast,future,100,https://sam.gov
+89,60,Desert Infrastructure Planning,KACST,International,DaaS,38000000,Forecast,future,140,https://sam.gov
+90,60,Nigeria Regional Elevation Survey,NASRDA,International,R&D,22000000,Forecast,future,111,https://sam.gov
+91,60,Israel Regional Elevation Survey,ISA,International,R&D,18000000,Forecast,future,134,https://sam.gov
+92,60,Turkey Regional Elevation Survey,TUASA,International,R&D,29000000,Forecast,future,111,https://sam.gov
+93,60,Black Sea Coastal Survey,TUASA,International,DaaS,26000000,Forecast,future,135,https://sam.gov
+94,60,Sweden Regional Elevation Survey,SNSA,International,R&D,26000000,Forecast,future,134,https://sam.gov
+95,60,Mexico Regional Elevation Survey,INEGI,International,R&D,38000000,Forecast,future,122,https://sam.gov
+96,60,Poland Regional Elevation Survey,CBK,International,R&D,21000000,Forecast,future,115,https://sam.gov
+97,60,Warsaw Metro Expansion,CBK,International,DaaS,19000000,Forecast,future,120,https://sam.gov
+98,60,Norway Regional Elevation Survey,NSC,International,R&D,24000000,Forecast,future,101,https://sam.gov
+99,60,Belgium Regional Elevation Survey,BELSPO,International,R&D,16000000,Forecast,future,112,https://sam.gov
+100,60,Amazon Basin Topographic Survey,IBGE,International,R&D,85000000,Forecast,future,120,https://sam.gov
+101,60,France Regional Elevation Survey,CNES,International,R&D,36000000,Forecast,future,106,https://sam.gov
+102,60,Finland Regional Elevation Survey,FMI,International,R&D,20000000,Forecast,future,139,https://sam.gov
+103,60,Argentina Regional Elevation Survey,IGN,International,R&D,29000000,Forecast,future,126,https://sam.gov
+104,60,Spain Regional Elevation Survey,CDTI,International,R&D,28000000,Forecast,future,122,https://sam.gov
+105,60,Philippines Regional Elevation Survey,PhilSA,International,R&D,29000000,Forecast,future,127,https://sam.gov
+106,60,Vietnam Regional Elevation Survey,VNREDSAT,International,R&D,24000000,Forecast,future,123,https://sam.gov
+107,60,Thailand Regional Elevation Survey,GISTDA,International,R&D,32000000,Forecast,future,127,https://sam.gov
+108,60,Pakistan Regional Elevation Survey,SUPARCO,International,R&D,22000000,Forecast,future,138,https://sam.gov
+109,60,Malaysia Regional Elevation Survey,MYSA,International,R&D,26000000,Forecast,future,122,https://sam.gov
+110,60,Bangladesh Regional Elevation Survey,SPARRSO,International,R&D,20000000,Forecast,future,131,https://sam.gov
+111,60,Italy Regional Elevation Survey,ASI,International,R&D,26000000,Forecast,future,121,https://sam.gov
+112,60,Peru Regional Elevation Survey,IGN Peru,International,R&D,27000000,Forecast,future,126,https://sam.gov
+113,60,Indonesia Regional Elevation Survey,BRIN,International,R&D,42000000,Forecast,future,102,https://sam.gov
+114,60,Switzerland Regional Elevation Survey,SSO,International,R&D,24000000,Forecast,future,110,https://sam.gov
+115,60,Austria Regional Elevation Survey,FFG,International,R&D,19000000,Forecast,future,103,https://sam.gov
+116,60,Netherlands Regional Elevation Survey,NSO,International,R&D,22000000,Forecast,future,122,https://sam.gov
+117,60,Colombia Regional Elevation Survey,IGAC,International,R&D,32000000,Forecast,future,115,https://sam.gov
+118,55,Atacama Desert Mapping,CNIDEP,International,R&D,28000000,Forecast,future,145,https://sam.gov
+119,55,New Capital City Planning,NARSS,International,DaaS,17000000,Forecast,future,130,https://sam.gov
+120,55,Oslo Port Development,NSC,International,DaaS,22000000,Forecast,future,115,https://sam.gov
+121,55,Tierra del Fuego Survey,IGN,International,R&D,26000000,Forecast,future,135,https://sam.gov
+122,50,Mars City Infrastructure,EIAST,International,R&D,33000000,Forecast,future,110,https://sam.gov
+123,50,Negev Development Zone,ISA,International,R&D,16000000,Forecast,future,125,https://sam.gov
+124,50,Lapland Mining Survey,SNSA,International,R&D,24000000,Forecast,future,130,https://sam.gov
+125,50,Helsinki Smart City,FMI,International,R&D,18000000,Forecast,future,125,https://sam.gov
+126,50,Bangkok Flood Risk Assessment,GISTDA,International,R&D,28000000,Forecast,future,140,https://sam.gov
+127,50,Venice Preservation,ASI,International,R&D,24000000,Forecast,future,130,https://sam.gov
+128,45,NIH Environmental Health Topographic Mapping,NIH,Research,R&D,6000000,Forecast,future,100,https://sam.gov

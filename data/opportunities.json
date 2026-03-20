@@ -1,0 +1,4619 @@
+{
+  "meta": {
+    "cagr": "19.43",
+    "market_val": "14.13",
+    "scrapers_run": 68,
+    "totalCount": 128,
+    "updated": "2026-03-20T12:18:02.347712Z"
+  },
+  "opportunities": [
+    {
+      "agency": "NSF",
+      "agencyLink": "https://www.nsf.gov/",
+      "amountUSD": 8000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 75,
+      "deadline": "2026-06-03",
+      "description": "Space-based LiDAR data integration for geoscience research infrastructure",
+      "forecast_value": "$8,000,000",
+      "funding": {
+        "amountUSD": 8000000
+      },
+      "id": "nsf-672",
+      "link": "https://sam.gov",
+      "next_action": "Proposal Development",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.351589Z",
+        "scraper": "NSF Geosciences",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351580Z",
+      "scraper": "NSF Geosciences",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 75,
+        "urgency": "near"
+      },
+      "title": "NSF EarthCube LiDAR Data Integration",
+      "urgency": "near",
+      "valueUSD": 8000000
+    },
+    {
+      "agency": "NSF",
+      "agencyLink": "https://www.nsf.gov/geo/",
+      "amountUSD": 12000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 95,
+      "deadline": "2026-06-23",
+      "description": "High-resolution elevation data for critical zone science",
+      "forecast_value": "$12,000,000",
+      "funding": {
+        "amountUSD": 12000000
+      },
+      "id": "nsf-640",
+      "link": "https://sam.gov",
+      "next_action": "Multi-Institution Proposal",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.351619Z",
+        "scraper": "NSF Geosciences",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351613Z",
+      "scraper": "NSF Geosciences",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 95,
+        "urgency": "future"
+      },
+      "title": "NSF Critical Zone Observatory - Topographic Mapping",
+      "urgency": "future",
+      "valueUSD": 12000000
+    },
+    {
+      "agency": "DIU",
+      "agencyLink": "https://www.diu.mil/",
+      "amountUSD": 15000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 15,
+      "deadline": "2026-04-04",
+      "description": "Next-generation space-based LiDAR for rapid large-area mapping",
+      "forecast_value": "$15,000,000",
+      "funding": {
+        "amountUSD": 15000000
+      },
+      "id": "diu-205",
+      "link": "https://sam.gov",
+      "next_action": "Submit Whitepaper",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.350145Z",
+        "scraper": "DIU Innovation",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350138Z",
+      "scraper": "DIU Innovation",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 15,
+        "urgency": "urgent"
+      },
+      "title": "DIU Spaceborne LiDAR BAA",
+      "urgency": "urgent",
+      "valueUSD": 15000000
+    },
+    {
+      "agency": "ASI",
+      "agencyLink": "https://www.asi.it/",
+      "amountUSD": 16000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Italy",
+      "daysUntilDeadline": 105,
+      "deadline": "2026-07-03",
+      "description": "LiDAR augmentation for COSMO-SkyMed elevation products",
+      "forecast_value": "$16,000,000",
+      "funding": {
+        "amountUSD": 16000000
+      },
+      "id": "asi-646",
+      "link": "https://sam.gov",
+      "next_action": "Technical Review",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Italy",
+        "scraped_at": "2026-03-20T12:18:02.351290Z",
+        "scraper": "ASI Earth Obs",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351283Z",
+      "scraper": "ASI Earth Obs",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 105,
+        "urgency": "future"
+      },
+      "title": "ASI COSMO-SkyMed Topographic Enhancement",
+      "urgency": "future",
+      "valueUSD": 16000000
+    },
+    {
+      "agency": "Amazon Web Services",
+      "agencyLink": "https://aws.amazon.com/earth/",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "USA",
+      "daysUntilDeadline": 70,
+      "deadline": "2026-05-29",
+      "description": "Spaceborne LiDAR data integration for AWS geospatial services",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "amazon-web-services-495",
+      "link": "https://sam.gov",
+      "next_action": "AWS Partnership Brief",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.352430Z",
+        "scraper": "Amazon AWS Geo",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.352424Z",
+      "scraper": "Amazon AWS Geo",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 70,
+        "urgency": "near"
+      },
+      "title": "AWS Earth on AWS - Elevation Data Partnership",
+      "urgency": "near",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "DOE",
+      "agencyLink": "https://www.energy.gov/",
+      "amountUSD": 10000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 85,
+      "deadline": "2026-06-13",
+      "description": "Spaceborne LiDAR for carbon cycle and ecosystem monitoring",
+      "forecast_value": "$10,000,000",
+      "funding": {
+        "amountUSD": 10000000
+      },
+      "id": "doe-998",
+      "link": "https://sam.gov",
+      "next_action": "Lab Partnership",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.351715Z",
+        "scraper": "DOE Environmental",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351709Z",
+      "scraper": "DOE Environmental",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 85,
+        "urgency": "near"
+      },
+      "title": "DOE Terrestrial Ecosystem LiDAR Characterization",
+      "urgency": "near",
+      "valueUSD": 10000000
+    },
+    {
+      "agency": "ESA",
+      "agencyLink": "https://www.esa.int/",
+      "amountUSD": 35000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "Europe",
+      "daysUntilDeadline": 45,
+      "deadline": "2026-05-04",
+      "description": "Space-based LiDAR for Digital Twin Earth topographic layer",
+      "forecast_value": "$35,000,000",
+      "funding": {
+        "amountUSD": 35000000
+      },
+      "id": "esa-869",
+      "link": "https://sam.gov",
+      "next_action": "Consortium Lead",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Europe",
+        "scraped_at": "2026-03-20T12:18:02.349922Z",
+        "scraper": "ESA Copernicus",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.349916Z",
+      "scraper": "ESA Copernicus",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 45,
+        "urgency": "near"
+      },
+      "title": "ESA Digital Twin Earth LiDAR Platform",
+      "urgency": "near",
+      "valueUSD": 35000000
+    },
+    {
+      "agency": "ESA",
+      "agencyLink": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Europe",
+      "daysUntilDeadline": 75,
+      "deadline": "2026-06-03",
+      "description": "Commercial elevation data services for Copernicus program",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "esa-463",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Europe",
+        "scraped_at": "2026-03-20T12:18:02.349938Z",
+        "scraper": "ESA Copernicus",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.349934Z",
+      "scraper": "ESA Copernicus",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 75,
+        "urgency": "near"
+      },
+      "title": "ESA Copernicus Expansion - Elevation Services",
+      "urgency": "near",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "NGA",
+      "agencyLink": "https://www.nga.mil/",
+      "amountUSD": 45000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 40,
+      "deadline": "2026-04-29",
+      "description": "Commercial spaceborne LiDAR and 3D topographic intelligence products",
+      "forecast_value": "$45,000,000",
+      "funding": {
+        "amountUSD": 45000000
+      },
+      "id": "nga-319",
+      "link": "https://sam.gov",
+      "next_action": "Security Clearance Prep",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.349418Z",
+        "scraper": "NGA Geoint",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.349411Z",
+      "scraper": "NGA Geoint",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 40,
+        "urgency": "near"
+      },
+      "title": "NGA Commercial Space-Based 3D Mapping",
+      "urgency": "near",
+      "valueUSD": 45000000
+    },
+    {
+      "agency": "FEMA",
+      "agencyLink": "https://www.fema.gov/flood-maps",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 65,
+      "deadline": "2026-05-24",
+      "description": "LiDAR-derived elevation data for flood risk mapping and modeling",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "fema-273",
+      "link": "https://sam.gov",
+      "next_action": "Capability Brief",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348890Z",
+        "scraper": "FEMA Flood",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348884Z",
+      "scraper": "FEMA Flood",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 65,
+        "urgency": "near"
+      },
+      "title": "FEMA Risk MAP Elevation Data Collection",
+      "urgency": "near",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "Caltech/JPL",
+      "agencyLink": "https://www.jpl.nasa.gov/",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 90,
+      "deadline": "2026-06-18",
+      "description": "Next-generation spaceborne LiDAR for planetary surface science",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "caltech-jpl-496",
+      "link": "https://sam.gov",
+      "next_action": "JPL Collaboration",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.352724Z",
+        "scraper": "Caltech JPL",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.352717Z",
+      "scraper": "Caltech JPL",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 90,
+        "urgency": "future"
+      },
+      "title": "JPL Earth Surface & Interior Science - LiDAR",
+      "urgency": "future",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "CNSA",
+      "agencyLink": "http://www.cnsa.gov.cn/english/",
+      "amountUSD": 40000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "China",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Large-area spaceborne LiDAR for Belt and Road Initiative countries",
+      "forecast_value": "$40,000,000",
+      "funding": {
+        "amountUSD": 40000000
+      },
+      "id": "cnsa-160",
+      "link": "https://sam.gov",
+      "next_action": "International Coordination",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "China",
+        "scraped_at": "2026-03-20T12:18:02.351121Z",
+        "scraper": "CNSA Mapping",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351113Z",
+      "scraper": "CNSA Mapping",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "CNSA Belt & Road Topographic Mapping",
+      "urgency": "future",
+      "valueUSD": 40000000
+    },
+    {
+      "agency": "USACE",
+      "agencyLink": "https://www.usace.army.mil/",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 70,
+      "deadline": "2026-05-29",
+      "description": "High-resolution DEM generation for flood mapping and infrastructure planning",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "usace-760",
+      "link": "https://sam.gov",
+      "next_action": "Past Performance Review",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348777Z",
+        "scraper": "USACE Mapping",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348771Z",
+      "scraper": "USACE Mapping",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 70,
+        "urgency": "near"
+      },
+      "title": "USACE National DEM Production Contract",
+      "urgency": "near",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "MIT",
+      "agencyLink": "https://www.ll.mit.edu/",
+      "amountUSD": 15000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Advanced spaceborne LiDAR technology development and validation",
+      "forecast_value": "$15,000,000",
+      "funding": {
+        "amountUSD": 15000000
+      },
+      "id": "mit-379",
+      "link": "https://sam.gov",
+      "next_action": "Research Agreement",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.352109Z",
+        "scraper": "MIT Research",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.352104Z",
+      "scraper": "MIT Research",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "MIT Lincoln Lab Space-Based Sensing Partnership",
+      "urgency": "future",
+      "valueUSD": 15000000
+    },
+    {
+      "agency": "USGS",
+      "agencyLink": "https://www.usgs.gov/3d-elevation-program",
+      "amountUSD": 217000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 28,
+      "deadline": "2026-04-17",
+      "description": "Large-area spaceborne LiDAR for National 3D Elevation Program. QL0/QL1 bare-earth DEM generation.",
+      "forecast_value": "$217,000,000",
+      "funding": {
+        "amountUSD": 217000000
+      },
+      "id": "usgs-269",
+      "link": "https://sam.gov",
+      "next_action": "Submit Demo Brief",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348287Z",
+        "scraper": "USGS 3DEP",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348278Z",
+      "scraper": "USGS 3DEP",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 28,
+        "urgency": "urgent"
+      },
+      "title": "USGS 3DEP LiDAR Acquisition 2026 - Phase 1",
+      "urgency": "urgent",
+      "valueUSD": 217000000
+    },
+    {
+      "agency": "USGS",
+      "agencyLink": "https://www.usgs.gov/programs/national-geospatial-program/national-map",
+      "amountUSD": 45000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 60,
+      "deadline": "2026-05-19",
+      "description": "Multi-year IDIQ for topographic data collection and processing services",
+      "forecast_value": "$45,000,000",
+      "funding": {
+        "amountUSD": 45000000
+      },
+      "id": "usgs-991",
+      "link": "https://sam.gov",
+      "next_action": "Capability Statement",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348309Z",
+        "scraper": "USGS 3DEP",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348305Z",
+      "scraper": "USGS 3DEP",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 60,
+        "urgency": "near"
+      },
+      "title": "USGS National Map Topographic Data Services",
+      "urgency": "near",
+      "valueUSD": 45000000
+    },
+    {
+      "agency": "UKSA",
+      "agencyLink": "https://www.gov.uk/government/organisations/uk-space-agency",
+      "amountUSD": 20000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "UK",
+      "daysUntilDeadline": 90,
+      "deadline": "2026-06-18",
+      "description": "Commercial space-based topographic data for climate monitoring",
+      "forecast_value": "$20,000,000",
+      "funding": {
+        "amountUSD": 20000000
+      },
+      "id": "uksa-591",
+      "link": "https://sam.gov",
+      "next_action": "UK Partnership Brief",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "UK",
+        "scraped_at": "2026-03-20T12:18:02.350781Z",
+        "scraper": "UKSA EO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350774Z",
+      "scraper": "UKSA EO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 90,
+        "urgency": "future"
+      },
+      "title": "UKSA Climate & Environment LiDAR Services",
+      "urgency": "future",
+      "valueUSD": 20000000
+    },
+    {
+      "agency": "EU Commission",
+      "agencyLink": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+      "amountUSD": 35000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Europe",
+      "daysUntilDeadline": 120,
+      "deadline": "2026-07-18",
+      "description": "Commercial spaceborne LiDAR for pan-European topographic services",
+      "forecast_value": "$35,000,000",
+      "funding": {
+        "amountUSD": 35000000
+      },
+      "id": "eu-commission-564",
+      "link": "https://sam.gov",
+      "next_action": "Consortium Formation",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "Europe",
+        "scraped_at": "2026-03-20T12:18:02.351982Z",
+        "scraper": "EU Horizon",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351977Z",
+      "scraper": "EU Horizon",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 120,
+        "urgency": "future"
+      },
+      "title": "Horizon Europe Space-Based Earth Monitoring",
+      "urgency": "future",
+      "valueUSD": 35000000
+    },
+    {
+      "agency": "BLM",
+      "agencyLink": "https://www.blm.gov/",
+      "amountUSD": 16000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 95,
+      "deadline": "2026-06-23",
+      "description": "Large-area topographic mapping for public land management and resource planning",
+      "forecast_value": "$16,000,000",
+      "funding": {
+        "amountUSD": 16000000
+      },
+      "id": "blm-931",
+      "link": "https://sam.gov",
+      "next_action": "Site Assessment",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.349719Z",
+        "scraper": "BLM Mapping",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.349714Z",
+      "scraper": "BLM Mapping",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 95,
+        "urgency": "future"
+      },
+      "title": "BLM Public Lands Topographic Mapping",
+      "urgency": "future",
+      "valueUSD": 16000000
+    },
+    {
+      "agency": "NIH",
+      "agencyLink": "https://www.nih.gov/",
+      "amountUSD": 6000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 100,
+      "deadline": "2026-06-28",
+      "description": "High-resolution DEM for disease vector and environmental health research",
+      "forecast_value": "$6,000,000",
+      "funding": {
+        "amountUSD": 6000000
+      },
+      "id": "nih-995",
+      "link": "https://sam.gov",
+      "next_action": "Health Mapping Brief",
+      "pillar": "Research",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.351912Z",
+        "scraper": "NIH GeoHealth",
+        "source_type": "Research"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.351906Z",
+      "scraper": "NIH GeoHealth",
+      "source_type": "Research",
+      "timeline": {
+        "daysUntil": 100,
+        "urgency": "future"
+      },
+      "title": "NIH Environmental Health Topographic Mapping",
+      "urgency": "future",
+      "valueUSD": 6000000
+    },
+    {
+      "agency": "USDA Forest Service",
+      "agencyLink": "https://www.fs.usda.gov/",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 80,
+      "deadline": "2026-06-08",
+      "description": "LiDAR for forest inventory, canopy height, and bare-earth terrain mapping",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "usda-forest-service-870",
+      "link": "https://sam.gov",
+      "next_action": "Forest Demo",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.349621Z",
+        "scraper": "USDA Forest",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.349615Z",
+      "scraper": "USDA Forest",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 80,
+        "urgency": "near"
+      },
+      "title": "USFS National Forest LiDAR Inventory",
+      "urgency": "near",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "NOAA",
+      "agencyLink": "https://coast.noaa.gov/",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 55,
+      "deadline": "2026-05-14",
+      "description": "Topobathymetric LiDAR for coastal zone mapping and elevation data",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "noaa-845",
+      "link": "https://sam.gov",
+      "next_action": "Technical Demo",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348667Z",
+        "scraper": "NOAA Coastal",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348660Z",
+      "scraper": "NOAA Coastal",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 55,
+        "urgency": "near"
+      },
+      "title": "NOAA Coastal Topobathy LiDAR Services",
+      "urgency": "near",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "ESRI",
+      "agencyLink": "https://www.esri.com/",
+      "amountUSD": 20000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "USA",
+      "daysUntilDeadline": 95,
+      "deadline": "2026-06-23",
+      "description": "Commercial space-based topographic data for ArcGIS platform",
+      "forecast_value": "$20,000,000",
+      "funding": {
+        "amountUSD": 20000000
+      },
+      "id": "esri-422",
+      "link": "https://sam.gov",
+      "next_action": "ESRI Partnership Meeting",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.352647Z",
+        "scraper": "ESRI Platform",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.352642Z",
+      "scraper": "ESRI Platform",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 95,
+        "urgency": "future"
+      },
+      "title": "ESRI Living Atlas Premium Elevation Layer",
+      "urgency": "future",
+      "valueUSD": 20000000
+    },
+    {
+      "agency": "ISRO",
+      "agencyLink": "https://www.isro.gov.in/",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "India",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Spaceborne LiDAR for national elevation mapping and disaster management",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "isro-625",
+      "link": "https://sam.gov",
+      "next_action": "India Partnership",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "India",
+        "scraped_at": "2026-03-20T12:18:02.350675Z",
+        "scraper": "ISRO Cartography",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350668Z",
+      "scraper": "ISRO Cartography",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "ISRO National Topographic Mapping - LiDAR Phase",
+      "urgency": "future",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "DLR",
+      "agencyLink": "https://www.dlr.de/",
+      "amountUSD": 30000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Germany",
+      "daysUntilDeadline": 100,
+      "deadline": "2026-06-28",
+      "description": "Next-generation spaceborne LiDAR for high-resolution global DEM",
+      "forecast_value": "$30,000,000",
+      "funding": {
+        "amountUSD": 30000000
+      },
+      "id": "dlr-160",
+      "link": "https://sam.gov",
+      "next_action": "Mission Planning",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Germany",
+        "scraped_at": "2026-03-20T12:18:02.350425Z",
+        "scraper": "DLR Remote Sensing",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350419Z",
+      "scraper": "DLR Remote Sensing",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 100,
+        "urgency": "future"
+      },
+      "title": "DLR TanDEM-X Follow-On LiDAR Mission",
+      "urgency": "future",
+      "valueUSD": 30000000
+    },
+    {
+      "agency": "Google",
+      "agencyLink": "https://earthengine.google.com/",
+      "amountUSD": 30000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "USA",
+      "daysUntilDeadline": 80,
+      "deadline": "2026-06-08",
+      "description": "Space-based LiDAR for next-generation global elevation model",
+      "forecast_value": "$30,000,000",
+      "funding": {
+        "amountUSD": 30000000
+      },
+      "id": "google-561",
+      "link": "https://sam.gov",
+      "next_action": "Data Partnership",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.352527Z",
+        "scraper": "Google Earth Engine",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.352521Z",
+      "scraper": "Google Earth Engine",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 80,
+        "urgency": "near"
+      },
+      "title": "Google Earth Engine Global DEM Initiative",
+      "urgency": "near",
+      "valueUSD": 30000000
+    },
+    {
+      "agency": "NASA",
+      "agencyLink": "https://science.nasa.gov/earth-science/",
+      "amountUSD": 12000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 45,
+      "deadline": "2026-05-04",
+      "description": "ICESat-2 ATLAS data processing and topographic applications research",
+      "forecast_value": "$12,000,000",
+      "funding": {
+        "amountUSD": 12000000
+      },
+      "id": "nasa-245",
+      "link": "https://sam.gov",
+      "next_action": "Proposal Preparation",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348374Z",
+        "scraper": "NASA Space LiDAR",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348370Z",
+      "scraper": "NASA Space LiDAR",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 45,
+        "urgency": "near"
+      },
+      "title": "NASA ROSES ICESat-2 Science Team Augmentation",
+      "urgency": "near",
+      "valueUSD": 12000000
+    },
+    {
+      "agency": "NASA",
+      "agencyLink": "https://science.nasa.gov/earth-science/",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "USA",
+      "daysUntilDeadline": 90,
+      "deadline": "2026-06-18",
+      "description": "Commercial space-based LiDAR for large-area topographic mapping",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "nasa-841",
+      "link": "https://sam.gov",
+      "next_action": "Partner Coordination",
+      "pillar": "Federal",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.348388Z",
+        "scraper": "NASA Space LiDAR",
+        "source_type": "Federal"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.348385Z",
+      "scraper": "NASA Space LiDAR",
+      "source_type": "Federal",
+      "timeline": {
+        "daysUntil": 90,
+        "urgency": "future"
+      },
+      "title": "NASA Commercial Spaceborne LiDAR Partnership",
+      "urgency": "future",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "CSA",
+      "agencyLink": "https://www.asc-csa.gc.ca/",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Canada",
+      "daysUntilDeadline": 85,
+      "deadline": "2026-06-13",
+      "description": "Space-based LiDAR for Arctic and sub-Arctic terrain mapping",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "csa-850",
+      "link": "https://sam.gov",
+      "next_action": "Arctic Capability Demo",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Canada",
+        "scraped_at": "2026-03-20T12:18:02.350317Z",
+        "scraper": "CSA EO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350311Z",
+      "scraper": "CSA EO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 85,
+        "urgency": "near"
+      },
+      "title": "CSA Arctic Topographic Mapping Program",
+      "urgency": "near",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "JAXA",
+      "agencyLink": "https://global.jaxa.jp/",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Japan",
+      "daysUntilDeadline": 120,
+      "deadline": "2026-07-18",
+      "description": "Spaceborne LiDAR integration for ALOS-4 global topographic mapping",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "jaxa-474",
+      "link": "https://sam.gov",
+      "next_action": "International Partnership",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Japan",
+        "scraped_at": "2026-03-20T12:18:02.350234Z",
+        "scraper": "JAXA Earth",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.350228Z",
+      "scraper": "JAXA Earth",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 120,
+        "urgency": "future"
+      },
+      "title": "JAXA ALOS-4 Topographic Mission Support",
+      "urgency": "future",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "State of California",
+      "agencyLink": "https://gis.data.ca.gov/",
+      "amountUSD": 45000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 75,
+      "deadline": "2026-06-03",
+      "description": "High-resolution elevation data for wildfire, flood, and infrastructure planning",
+      "forecast_value": "$45,000,000",
+      "funding": {
+        "amountUSD": 45000000
+      },
+      "id": "state-of-california-749",
+      "link": "https://sam.gov",
+      "next_action": "State Contracting",
+      "pillar": "State/Local",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353324Z",
+        "scraper": "California State",
+        "source_type": "State/Local"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353317Z",
+      "scraper": "California State",
+      "source_type": "State/Local",
+      "timeline": {
+        "daysUntil": 75,
+        "urgency": "near"
+      },
+      "title": "California Statewide LiDAR Program - Phase 2",
+      "urgency": "near",
+      "valueUSD": 45000000
+    },
+    {
+      "agency": "State of Texas",
+      "agencyLink": "https://tnris.org/",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 90,
+      "deadline": "2026-06-18",
+      "description": "Large-area topographic mapping for coastal resilience and flood planning",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "state-of-texas-800",
+      "link": "https://sam.gov",
+      "next_action": "TNRIS Coordination",
+      "pillar": "State/Local",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353512Z",
+        "scraper": "Texas State",
+        "source_type": "State/Local"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353506Z",
+      "scraper": "Texas State",
+      "source_type": "State/Local",
+      "timeline": {
+        "daysUntil": 90,
+        "urgency": "future"
+      },
+      "title": "Texas Strategic Mapping Program - Statewide DEM",
+      "urgency": "future",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "State of Florida",
+      "agencyLink": "https://floridadep.gov/",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 100,
+      "deadline": "2026-06-28",
+      "description": "Coastal zone topographic and bathymetric elevation mapping",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "state-of-florida-675",
+      "link": "https://sam.gov",
+      "next_action": "Coastal Demo",
+      "pillar": "State/Local",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353583Z",
+        "scraper": "Florida State",
+        "source_type": "State/Local"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353578Z",
+      "scraper": "Florida State",
+      "source_type": "State/Local",
+      "timeline": {
+        "daysUntil": 100,
+        "urgency": "future"
+      },
+      "title": "Florida Coastal Mapping - Topobathy LiDAR",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "Maxar",
+      "agencyLink": "https://www.maxar.com/",
+      "amountUSD": 35000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 60,
+      "deadline": "2026-05-19",
+      "description": "Space-based LiDAR for enhanced 3D intelligence products",
+      "forecast_value": "$35,000,000",
+      "funding": {
+        "amountUSD": 35000000
+      },
+      "id": "maxar-983",
+      "link": "https://sam.gov",
+      "next_action": "Commercial Partnership",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353412Z",
+        "scraper": "Maxar Geo",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353406Z",
+      "scraper": "Maxar Geo",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 60,
+        "urgency": "near"
+      },
+      "title": "Maxar 3D Geospatial Intelligence - LiDAR Integration",
+      "urgency": "near",
+      "valueUSD": 35000000
+    },
+    {
+      "agency": "Planet Labs",
+      "agencyLink": "https://www.planet.com/",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "USA",
+      "daysUntilDeadline": 75,
+      "deadline": "2026-06-03",
+      "description": "Spaceborne LiDAR integration with Planet Fusion multi-modal analytics",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "planet-labs-958",
+      "link": "https://sam.gov",
+      "next_action": "Platform Integration",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353810Z",
+        "scraper": "Planet Labs",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353805Z",
+      "scraper": "Planet Labs",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 75,
+        "urgency": "near"
+      },
+      "title": "Planet Fusion Platform - Elevation Layer Integration",
+      "urgency": "near",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "World Bank",
+      "agencyLink": "https://www.worldbank.org/",
+      "amountUSD": 50000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Global",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Large-area spaceborne topographic mapping for developing nations",
+      "forecast_value": "$50,000,000",
+      "funding": {
+        "amountUSD": 50000000
+      },
+      "id": "world-bank-182",
+      "link": "https://sam.gov",
+      "next_action": "Development Partnership",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Global",
+        "scraped_at": "2026-03-20T12:18:02.353702Z",
+        "scraper": "World Bank",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353697Z",
+      "scraper": "World Bank",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "World Bank Climate Resilience Mapping Initiative",
+      "urgency": "future",
+      "valueUSD": 50000000
+    },
+    {
+      "agency": "Microsoft",
+      "agencyLink": "https://planetarycomputer.microsoft.com/",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "Platform",
+      "country": "USA",
+      "daysUntilDeadline": 85,
+      "deadline": "2026-06-13",
+      "description": "Spaceborne LiDAR DEM for Planetary Computer sustainability applications",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "microsoft-584",
+      "link": "https://sam.gov",
+      "next_action": "Azure Integration",
+      "pillar": "Commercial",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.354049Z",
+        "scraper": "Microsoft Planetary",
+        "source_type": "Commercial"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354043Z",
+      "scraper": "Microsoft Planetary",
+      "source_type": "Commercial",
+      "timeline": {
+        "daysUntil": 85,
+        "urgency": "near"
+      },
+      "title": "Microsoft Planetary Computer Terrain Services",
+      "urgency": "near",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "Geoscience Australia",
+      "agencyLink": "https://www.ga.gov.au/",
+      "amountUSD": 45000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Australia",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Continental LiDAR update",
+      "forecast_value": "$45,000,000",
+      "funding": {
+        "amountUSD": 45000000
+      },
+      "id": "geoscience-australia-633",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Australia",
+        "scraped_at": "2026-03-20T12:18:02.354228Z",
+        "scraper": "Geoscience Australia",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354221Z",
+      "scraper": "Geoscience Australia",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "National DEM Refresh",
+      "urgency": "future",
+      "valueUSD": 45000000
+    },
+    {
+      "agency": "Geoscience Australia",
+      "agencyLink": "https://www.ga.gov.au/",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Australia",
+      "daysUntilDeadline": 125,
+      "deadline": "2026-07-23",
+      "description": "Coastal zone elevation mapping",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "geoscience-australia-142",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Australia",
+        "scraped_at": "2026-03-20T12:18:02.354243Z",
+        "scraper": "Geoscience Australia",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354240Z",
+      "scraper": "Geoscience Australia",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 125,
+        "urgency": "future"
+      },
+      "title": "Coastal Barrier Reef Mapping",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "LINZ",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "New Zealand",
+      "daysUntilDeadline": 114,
+      "deadline": "2026-07-12",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "linz-959",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "New Zealand",
+        "scraped_at": "2026-03-20T12:18:02.354153Z",
+        "scraper": "LINZ NZ",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354148Z",
+      "scraper": "LINZ NZ",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 114,
+        "urgency": "future"
+      },
+      "title": "New Zealand National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "LINZ",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "New Zealand",
+      "daysUntilDeadline": 128,
+      "deadline": "2026-07-26",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "linz-313",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "New Zealand",
+        "scraped_at": "2026-03-20T12:18:02.354171Z",
+        "scraper": "LINZ NZ",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354168Z",
+      "scraper": "LINZ NZ",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 128,
+        "urgency": "future"
+      },
+      "title": "New Zealand Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "NYC Planning",
+      "agencyLink": "https://www1.nyc.gov/site/planning/",
+      "amountUSD": 12000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "USA",
+      "daysUntilDeadline": 65,
+      "deadline": "2026-05-24",
+      "description": "High-resolution urban topographic and infrastructure mapping",
+      "forecast_value": "$12,000,000",
+      "funding": {
+        "amountUSD": 12000000
+      },
+      "id": "nyc-planning-168",
+      "link": "https://sam.gov",
+      "next_action": "City Proposal",
+      "pillar": "State/Local",
+      "provenance": {
+        "cost_free": true,
+        "country": "USA",
+        "scraped_at": "2026-03-20T12:18:02.353900Z",
+        "scraper": "NYC Urban",
+        "source_type": "State/Local"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.353894Z",
+      "scraper": "NYC Urban",
+      "source_type": "State/Local",
+      "timeline": {
+        "daysUntil": 65,
+        "urgency": "near"
+      },
+      "title": "NYC 3D Building & Terrain Model Update",
+      "urgency": "near",
+      "valueUSD": 12000000
+    },
+    {
+      "agency": "CNIDEP",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 42000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Chile",
+      "daysUntilDeadline": 89,
+      "deadline": "2026-06-17",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$42,000,000",
+      "funding": {
+        "amountUSD": 42000000
+      },
+      "id": "cnidep-849",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Chile",
+        "scraped_at": "2026-03-20T12:18:02.354463Z",
+        "scraper": "CNIDEP",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354457Z",
+      "scraper": "CNIDEP",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 89,
+        "urgency": "near"
+      },
+      "title": "Chile National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 42000000
+    },
+    {
+      "agency": "CNIDEP",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 31000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Chile",
+      "daysUntilDeadline": 126,
+      "deadline": "2026-07-24",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$31,000,000",
+      "funding": {
+        "amountUSD": 31000000
+      },
+      "id": "cnidep-387",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Chile",
+        "scraped_at": "2026-03-20T12:18:02.354476Z",
+        "scraper": "CNIDEP",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354473Z",
+      "scraper": "CNIDEP",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 126,
+        "urgency": "future"
+      },
+      "title": "Chile Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 31000000
+    },
+    {
+      "agency": "CNIDEP",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Chile",
+      "daysUntilDeadline": 145,
+      "deadline": "2026-08-12",
+      "description": "Extreme environment topography",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "cnidep-298",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Chile",
+        "scraped_at": "2026-03-20T12:18:02.354489Z",
+        "scraper": "CNIDEP",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354486Z",
+      "scraper": "CNIDEP",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 145,
+        "urgency": "future"
+      },
+      "title": "Atacama Desert Mapping",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "SANSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 35000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "South Africa",
+      "daysUntilDeadline": 85,
+      "deadline": "2026-06-13",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$35,000,000",
+      "funding": {
+        "amountUSD": 35000000
+      },
+      "id": "sansa-715",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Africa",
+        "scraped_at": "2026-03-20T12:18:02.354574Z",
+        "scraper": "SANSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354569Z",
+      "scraper": "SANSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 85,
+        "urgency": "near"
+      },
+      "title": "South Africa National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 35000000
+    },
+    {
+      "agency": "SANSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 27000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "South Africa",
+      "daysUntilDeadline": 107,
+      "deadline": "2026-07-05",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$27,000,000",
+      "funding": {
+        "amountUSD": 27000000
+      },
+      "id": "sansa-545",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Africa",
+        "scraped_at": "2026-03-20T12:18:02.354586Z",
+        "scraper": "SANSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354584Z",
+      "scraper": "SANSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 107,
+        "urgency": "future"
+      },
+      "title": "South Africa Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 27000000
+    },
+    {
+      "agency": "SANSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "South Africa",
+      "daysUntilDeadline": 125,
+      "deadline": "2026-07-23",
+      "description": "City infrastructure terrain",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "sansa-668",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Africa",
+        "scraped_at": "2026-03-20T12:18:02.354596Z",
+        "scraper": "SANSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354594Z",
+      "scraper": "SANSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 125,
+        "urgency": "future"
+      },
+      "title": "Cape Town Urban Update",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "KARI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "South Korea",
+      "daysUntilDeadline": 114,
+      "deadline": "2026-07-12",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "kari-302",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Korea",
+        "scraped_at": "2026-03-20T12:18:02.354724Z",
+        "scraper": "KARI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354719Z",
+      "scraper": "KARI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 114,
+        "urgency": "future"
+      },
+      "title": "South Korea National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "KARI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "South Korea",
+      "daysUntilDeadline": 117,
+      "deadline": "2026-07-15",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "kari-161",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Korea",
+        "scraped_at": "2026-03-20T12:18:02.354737Z",
+        "scraper": "KARI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354734Z",
+      "scraper": "KARI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 117,
+        "urgency": "future"
+      },
+      "title": "South Korea Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "KARI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "South Korea",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Urban terrain for smart city development",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "kari-580",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "South Korea",
+        "scraped_at": "2026-03-20T12:18:02.354761Z",
+        "scraper": "KARI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354758Z",
+      "scraper": "KARI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "Smart City Infrastructure",
+      "urgency": "future",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "NARSS",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Egypt",
+      "daysUntilDeadline": 113,
+      "deadline": "2026-07-11",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "narss-233",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Egypt",
+        "scraped_at": "2026-03-20T12:18:02.354869Z",
+        "scraper": "NARSS",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354863Z",
+      "scraper": "NARSS",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 113,
+        "urgency": "future"
+      },
+      "title": "Egypt National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "NARSS",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 19000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Egypt",
+      "daysUntilDeadline": 124,
+      "deadline": "2026-07-22",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$19,000,000",
+      "funding": {
+        "amountUSD": 19000000
+      },
+      "id": "narss-671",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Egypt",
+        "scraped_at": "2026-03-20T12:18:02.354882Z",
+        "scraper": "NARSS",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354879Z",
+      "scraper": "NARSS",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 124,
+        "urgency": "future"
+      },
+      "title": "Egypt Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 19000000
+    },
+    {
+      "agency": "NARSS",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 17000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Egypt",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Development zone topography",
+      "forecast_value": "$17,000,000",
+      "funding": {
+        "amountUSD": 17000000
+      },
+      "id": "narss-960",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Egypt",
+        "scraped_at": "2026-03-20T12:18:02.354892Z",
+        "scraper": "NARSS",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354890Z",
+      "scraper": "NARSS",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "New Capital City Planning",
+      "urgency": "future",
+      "valueUSD": 17000000
+    },
+    {
+      "agency": "EIAST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 52000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "UAE",
+      "daysUntilDeadline": 104,
+      "deadline": "2026-07-02",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$52,000,000",
+      "funding": {
+        "amountUSD": 52000000
+      },
+      "id": "eiast-946",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "UAE",
+        "scraped_at": "2026-03-20T12:18:02.354965Z",
+        "scraper": "EIAST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354958Z",
+      "scraper": "EIAST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 104,
+        "urgency": "future"
+      },
+      "title": "UAE National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 52000000
+    },
+    {
+      "agency": "EIAST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "UAE",
+      "daysUntilDeadline": 106,
+      "deadline": "2026-07-04",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "eiast-765",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "UAE",
+        "scraped_at": "2026-03-20T12:18:02.354978Z",
+        "scraper": "EIAST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354975Z",
+      "scraper": "EIAST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 106,
+        "urgency": "future"
+      },
+      "title": "UAE Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "EIAST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 33000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "UAE",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Future development terrain planning",
+      "forecast_value": "$33,000,000",
+      "funding": {
+        "amountUSD": 33000000
+      },
+      "id": "eiast-496",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "UAE",
+        "scraped_at": "2026-03-20T12:18:02.354988Z",
+        "scraper": "EIAST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354986Z",
+      "scraper": "EIAST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "Mars City Infrastructure",
+      "urgency": "future",
+      "valueUSD": 33000000
+    },
+    {
+      "agency": "KACST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 65000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Saudi Arabia",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$65,000,000",
+      "funding": {
+        "amountUSD": 65000000
+      },
+      "id": "kacst-306",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Saudi Arabia",
+        "scraped_at": "2026-03-20T12:18:02.355067Z",
+        "scraper": "KACST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355062Z",
+      "scraper": "KACST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "Saudi Arabia National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 65000000
+    },
+    {
+      "agency": "KACST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 45000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Saudi Arabia",
+      "daysUntilDeadline": 100,
+      "deadline": "2026-06-28",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$45,000,000",
+      "funding": {
+        "amountUSD": 45000000
+      },
+      "id": "kacst-332",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Saudi Arabia",
+        "scraped_at": "2026-03-20T12:18:02.355079Z",
+        "scraper": "KACST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355077Z",
+      "scraper": "KACST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 100,
+        "urgency": "future"
+      },
+      "title": "Saudi Arabia Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 45000000
+    },
+    {
+      "agency": "KACST",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Saudi Arabia",
+      "daysUntilDeadline": 140,
+      "deadline": "2026-08-07",
+      "description": "Urban expansion terrain data",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "kacst-803",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Saudi Arabia",
+        "scraped_at": "2026-03-20T12:18:02.355089Z",
+        "scraper": "KACST",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355087Z",
+      "scraper": "KACST",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 140,
+        "urgency": "future"
+      },
+      "title": "Desert Infrastructure Planning",
+      "urgency": "future",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "NASRDA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Nigeria",
+      "daysUntilDeadline": 114,
+      "deadline": "2026-07-12",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "nasrda-714",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Nigeria",
+        "scraped_at": "2026-03-20T12:18:02.354666Z",
+        "scraper": "NASRDA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354661Z",
+      "scraper": "NASRDA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 114,
+        "urgency": "future"
+      },
+      "title": "Nigeria National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "NASRDA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Nigeria",
+      "daysUntilDeadline": 111,
+      "deadline": "2026-07-09",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "nasrda-183",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Nigeria",
+        "scraped_at": "2026-03-20T12:18:02.354683Z",
+        "scraper": "NASRDA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.354680Z",
+      "scraper": "NASRDA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 111,
+        "urgency": "future"
+      },
+      "title": "Nigeria Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "ISA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Israel",
+      "daysUntilDeadline": 117,
+      "deadline": "2026-07-15",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "isa-964",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Israel",
+        "scraped_at": "2026-03-20T12:18:02.355175Z",
+        "scraper": "ISA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355170Z",
+      "scraper": "ISA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 117,
+        "urgency": "future"
+      },
+      "title": "Israel National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "ISA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Israel",
+      "daysUntilDeadline": 134,
+      "deadline": "2026-08-01",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "isa-420",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Israel",
+        "scraped_at": "2026-03-20T12:18:02.355187Z",
+        "scraper": "ISA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355184Z",
+      "scraper": "ISA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 134,
+        "urgency": "future"
+      },
+      "title": "Israel Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "ISA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 16000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Israel",
+      "daysUntilDeadline": 125,
+      "deadline": "2026-07-23",
+      "description": "Desert development terrain",
+      "forecast_value": "$16,000,000",
+      "funding": {
+        "amountUSD": 16000000
+      },
+      "id": "isa-109",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Israel",
+        "scraped_at": "2026-03-20T12:18:02.355201Z",
+        "scraper": "ISA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355198Z",
+      "scraper": "ISA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 125,
+        "urgency": "future"
+      },
+      "title": "Negev Development Zone",
+      "urgency": "future",
+      "valueUSD": 16000000
+    },
+    {
+      "agency": "TUASA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Turkey",
+      "daysUntilDeadline": 87,
+      "deadline": "2026-06-15",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "tuasa-912",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Turkey",
+        "scraped_at": "2026-03-20T12:18:02.355290Z",
+        "scraper": "TUASA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355284Z",
+      "scraper": "TUASA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 87,
+        "urgency": "near"
+      },
+      "title": "Turkey National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "TUASA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 29000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Turkey",
+      "daysUntilDeadline": 111,
+      "deadline": "2026-07-09",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$29,000,000",
+      "funding": {
+        "amountUSD": 29000000
+      },
+      "id": "tuasa-556",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Turkey",
+        "scraped_at": "2026-03-20T12:18:02.355303Z",
+        "scraper": "TUASA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355300Z",
+      "scraper": "TUASA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 111,
+        "urgency": "future"
+      },
+      "title": "Turkey Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 29000000
+    },
+    {
+      "agency": "TUASA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Turkey",
+      "daysUntilDeadline": 135,
+      "deadline": "2026-08-02",
+      "description": "Coastal infrastructure planning",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "tuasa-786",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Turkey",
+        "scraped_at": "2026-03-20T12:18:02.355313Z",
+        "scraper": "TUASA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355311Z",
+      "scraper": "TUASA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 135,
+        "urgency": "future"
+      },
+      "title": "Black Sea Coastal Survey",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "SNSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Sweden",
+      "daysUntilDeadline": 86,
+      "deadline": "2026-06-14",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "snsa-227",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Sweden",
+        "scraped_at": "2026-03-20T12:18:02.355588Z",
+        "scraper": "SNSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355583Z",
+      "scraper": "SNSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 86,
+        "urgency": "near"
+      },
+      "title": "Sweden National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "SNSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Sweden",
+      "daysUntilDeadline": 134,
+      "deadline": "2026-08-01",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "snsa-925",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Sweden",
+        "scraped_at": "2026-03-20T12:18:02.355606Z",
+        "scraper": "SNSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355603Z",
+      "scraper": "SNSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 134,
+        "urgency": "future"
+      },
+      "title": "Sweden Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "SNSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Sweden",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Resource extraction terrain",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "snsa-756",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Sweden",
+        "scraped_at": "2026-03-20T12:18:02.355619Z",
+        "scraper": "SNSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355614Z",
+      "scraper": "SNSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "Lapland Mining Survey",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "INEGI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 55000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Mexico",
+      "daysUntilDeadline": 116,
+      "deadline": "2026-07-14",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$55,000,000",
+      "funding": {
+        "amountUSD": 55000000
+      },
+      "id": "inegi-433",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Mexico",
+        "scraped_at": "2026-03-20T12:18:02.355781Z",
+        "scraper": "INEGI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355774Z",
+      "scraper": "INEGI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 116,
+        "urgency": "future"
+      },
+      "title": "Mexico National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 55000000
+    },
+    {
+      "agency": "INEGI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Mexico",
+      "daysUntilDeadline": 122,
+      "deadline": "2026-07-20",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "inegi-333",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Mexico",
+        "scraped_at": "2026-03-20T12:18:02.355793Z",
+        "scraper": "INEGI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355791Z",
+      "scraper": "INEGI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 122,
+        "urgency": "future"
+      },
+      "title": "Mexico Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "INEGI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 42000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Mexico",
+      "daysUntilDeadline": 115,
+      "deadline": "2026-07-13",
+      "description": "Archaeological site terrain preservation",
+      "forecast_value": "$42,000,000",
+      "funding": {
+        "amountUSD": 42000000
+      },
+      "id": "inegi-297",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Mexico",
+        "scraped_at": "2026-03-20T12:18:02.355803Z",
+        "scraper": "INEGI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355800Z",
+      "scraper": "INEGI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 115,
+        "urgency": "future"
+      },
+      "title": "Yucatan Peninsula Mapping",
+      "urgency": "future",
+      "valueUSD": 42000000
+    },
+    {
+      "agency": "CBK",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Poland",
+      "daysUntilDeadline": 115,
+      "deadline": "2026-07-13",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "cbk-206",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Poland",
+        "scraped_at": "2026-03-20T12:18:02.355455Z",
+        "scraper": "CBK",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355447Z",
+      "scraper": "CBK",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 115,
+        "urgency": "future"
+      },
+      "title": "Poland National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "CBK",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 21000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Poland",
+      "daysUntilDeadline": 115,
+      "deadline": "2026-07-13",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$21,000,000",
+      "funding": {
+        "amountUSD": 21000000
+      },
+      "id": "cbk-446",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Poland",
+        "scraped_at": "2026-03-20T12:18:02.355473Z",
+        "scraper": "CBK",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355470Z",
+      "scraper": "CBK",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 115,
+        "urgency": "future"
+      },
+      "title": "Poland Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 21000000
+    },
+    {
+      "agency": "CBK",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 19000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Poland",
+      "daysUntilDeadline": 120,
+      "deadline": "2026-07-18",
+      "description": "Urban infrastructure terrain",
+      "forecast_value": "$19,000,000",
+      "funding": {
+        "amountUSD": 19000000
+      },
+      "id": "cbk-788",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Poland",
+        "scraped_at": "2026-03-20T12:18:02.355483Z",
+        "scraper": "CBK",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355481Z",
+      "scraper": "CBK",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 120,
+        "urgency": "future"
+      },
+      "title": "Warsaw Metro Expansion",
+      "urgency": "future",
+      "valueUSD": 19000000
+    },
+    {
+      "agency": "NSC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 29000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Norway",
+      "daysUntilDeadline": 86,
+      "deadline": "2026-06-14",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$29,000,000",
+      "funding": {
+        "amountUSD": 29000000
+      },
+      "id": "nsc-112",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Norway",
+        "scraped_at": "2026-03-20T12:18:02.355692Z",
+        "scraper": "NSC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355688Z",
+      "scraper": "NSC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 86,
+        "urgency": "near"
+      },
+      "title": "Norway National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 29000000
+    },
+    {
+      "agency": "NSC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Norway",
+      "daysUntilDeadline": 101,
+      "deadline": "2026-06-29",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "nsc-560",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Norway",
+        "scraped_at": "2026-03-20T12:18:02.355705Z",
+        "scraper": "NSC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355702Z",
+      "scraper": "NSC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 101,
+        "urgency": "future"
+      },
+      "title": "Norway Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "NSC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Norway",
+      "daysUntilDeadline": 115,
+      "deadline": "2026-07-13",
+      "description": "Harbor infrastructure planning",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "nsc-416",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Norway",
+        "scraped_at": "2026-03-20T12:18:02.355715Z",
+        "scraper": "NSC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355713Z",
+      "scraper": "NSC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 115,
+        "urgency": "future"
+      },
+      "title": "Oslo Port Development",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "BELSPO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 19000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Belgium",
+      "daysUntilDeadline": 92,
+      "deadline": "2026-06-20",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$19,000,000",
+      "funding": {
+        "amountUSD": 19000000
+      },
+      "id": "belspo-460",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Belgium",
+        "scraped_at": "2026-03-20T12:18:02.356305Z",
+        "scraper": "BELSPO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356297Z",
+      "scraper": "BELSPO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 92,
+        "urgency": "future"
+      },
+      "title": "Belgium National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 19000000
+    },
+    {
+      "agency": "BELSPO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 16000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Belgium",
+      "daysUntilDeadline": 112,
+      "deadline": "2026-07-10",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$16,000,000",
+      "funding": {
+        "amountUSD": 16000000
+      },
+      "id": "belspo-158",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Belgium",
+        "scraped_at": "2026-03-20T12:18:02.356329Z",
+        "scraper": "BELSPO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356322Z",
+      "scraper": "BELSPO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 112,
+        "urgency": "future"
+      },
+      "title": "Belgium Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 16000000
+    },
+    {
+      "agency": "IBGE",
+      "agencyLink": "https://biblioteca.ibge.gov.br",
+      "amountUSD": 120000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Brazil",
+      "daysUntilDeadline": 95,
+      "deadline": "2026-06-23",
+      "description": "Large-area LiDAR for Brazilian territory",
+      "forecast_value": "$120,000,000",
+      "funding": {
+        "amountUSD": 120000000
+      },
+      "id": "ibge-196",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Brazil",
+        "scraped_at": "2026-03-20T12:18:02.356422Z",
+        "scraper": "Brazil IBGE",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356417Z",
+      "scraper": "Brazil IBGE",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 95,
+        "urgency": "future"
+      },
+      "title": "IBGE National Topographic Mapping Program",
+      "urgency": "future",
+      "valueUSD": 120000000
+    },
+    {
+      "agency": "IBGE",
+      "agencyLink": "https://biblioteca.ibge.gov.br",
+      "amountUSD": 85000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Brazil",
+      "daysUntilDeadline": 120,
+      "deadline": "2026-07-18",
+      "description": "Rainforest bare-earth DEM with LiDAR",
+      "forecast_value": "$85,000,000",
+      "funding": {
+        "amountUSD": 85000000
+      },
+      "id": "ibge-564",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Brazil",
+        "scraped_at": "2026-03-20T12:18:02.356436Z",
+        "scraper": "Brazil IBGE",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356433Z",
+      "scraper": "Brazil IBGE",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 120,
+        "urgency": "future"
+      },
+      "title": "Amazon Basin Topographic Survey",
+      "urgency": "future",
+      "valueUSD": 85000000
+    },
+    {
+      "agency": "IBGE",
+      "agencyLink": "https://biblioteca.ibge.gov.br",
+      "amountUSD": 72000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Brazil",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Coastal terrain and bathymetry mapping",
+      "forecast_value": "$72,000,000",
+      "funding": {
+        "amountUSD": 72000000
+      },
+      "id": "ibge-743",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Brazil",
+        "scraped_at": "2026-03-20T12:18:02.356446Z",
+        "scraper": "Brazil IBGE",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356444Z",
+      "scraper": "Brazil IBGE",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "Coastal Zone Elevation Programme",
+      "urgency": "future",
+      "valueUSD": 72000000
+    },
+    {
+      "agency": "CNES",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 48000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "France",
+      "daysUntilDeadline": 92,
+      "deadline": "2026-06-20",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$48,000,000",
+      "funding": {
+        "amountUSD": 48000000
+      },
+      "id": "cnes-725",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "France",
+        "scraped_at": "2026-03-20T12:18:02.356612Z",
+        "scraper": "CNES",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356605Z",
+      "scraper": "CNES",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 92,
+        "urgency": "future"
+      },
+      "title": "France National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 48000000
+    },
+    {
+      "agency": "CNES",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 36000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "France",
+      "daysUntilDeadline": 106,
+      "deadline": "2026-07-04",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$36,000,000",
+      "funding": {
+        "amountUSD": 36000000
+      },
+      "id": "cnes-782",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "France",
+        "scraped_at": "2026-03-20T12:18:02.356630Z",
+        "scraper": "CNES",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356626Z",
+      "scraper": "CNES",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 106,
+        "urgency": "future"
+      },
+      "title": "France Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 36000000
+    },
+    {
+      "agency": "CNES",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "France",
+      "daysUntilDeadline": 135,
+      "deadline": "2026-08-02",
+      "description": "Global territory elevation data",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "cnes-870",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "France",
+        "scraped_at": "2026-03-20T12:18:02.356641Z",
+        "scraper": "CNES",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356638Z",
+      "scraper": "CNES",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 135,
+        "urgency": "future"
+      },
+      "title": "French Overseas Territories",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "FMI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Finland",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "fmi-460",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Finland",
+        "scraped_at": "2026-03-20T12:18:02.356000Z",
+        "scraper": "FMI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355995Z",
+      "scraper": "FMI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "Finland National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "FMI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 20000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Finland",
+      "daysUntilDeadline": 139,
+      "deadline": "2026-08-06",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$20,000,000",
+      "funding": {
+        "amountUSD": 20000000
+      },
+      "id": "fmi-720",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Finland",
+        "scraped_at": "2026-03-20T12:18:02.356016Z",
+        "scraper": "FMI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356013Z",
+      "scraper": "FMI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 139,
+        "urgency": "future"
+      },
+      "title": "Finland Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 20000000
+    },
+    {
+      "agency": "FMI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 18000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Finland",
+      "daysUntilDeadline": 125,
+      "deadline": "2026-07-23",
+      "description": "Urban development terrain",
+      "forecast_value": "$18,000,000",
+      "funding": {
+        "amountUSD": 18000000
+      },
+      "id": "fmi-311",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Finland",
+        "scraped_at": "2026-03-20T12:18:02.356026Z",
+        "scraper": "FMI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356024Z",
+      "scraper": "FMI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 125,
+        "urgency": "future"
+      },
+      "title": "Helsinki Smart City",
+      "urgency": "future",
+      "valueUSD": 18000000
+    },
+    {
+      "agency": "IGN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Argentina",
+      "daysUntilDeadline": 89,
+      "deadline": "2026-06-17",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "ign-895",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Argentina",
+        "scraped_at": "2026-03-20T12:18:02.356796Z",
+        "scraper": "IGN Argentina",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356790Z",
+      "scraper": "IGN Argentina",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 89,
+        "urgency": "near"
+      },
+      "title": "Argentina National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "IGN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 29000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Argentina",
+      "daysUntilDeadline": 126,
+      "deadline": "2026-07-24",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$29,000,000",
+      "funding": {
+        "amountUSD": 29000000
+      },
+      "id": "ign-361",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Argentina",
+        "scraped_at": "2026-03-20T12:18:02.356814Z",
+        "scraper": "IGN Argentina",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356811Z",
+      "scraper": "IGN Argentina",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 126,
+        "urgency": "future"
+      },
+      "title": "Argentina Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 29000000
+    },
+    {
+      "agency": "IGN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Argentina",
+      "daysUntilDeadline": 135,
+      "deadline": "2026-08-02",
+      "description": "Southern territory terrain mapping",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "ign-996",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Argentina",
+        "scraped_at": "2026-03-20T12:18:02.356824Z",
+        "scraper": "IGN Argentina",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356822Z",
+      "scraper": "IGN Argentina",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 135,
+        "urgency": "future"
+      },
+      "title": "Tierra del Fuego Survey",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "CDTI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 36000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Spain",
+      "daysUntilDeadline": 106,
+      "deadline": "2026-07-04",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$36,000,000",
+      "funding": {
+        "amountUSD": 36000000
+      },
+      "id": "cdti-158",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Spain",
+        "scraped_at": "2026-03-20T12:18:02.356078Z",
+        "scraper": "CDTI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356068Z",
+      "scraper": "CDTI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 106,
+        "urgency": "future"
+      },
+      "title": "Spain National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 36000000
+    },
+    {
+      "agency": "CDTI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Spain",
+      "daysUntilDeadline": 122,
+      "deadline": "2026-07-20",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "cdti-549",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Spain",
+        "scraped_at": "2026-03-20T12:18:02.356106Z",
+        "scraper": "CDTI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356101Z",
+      "scraper": "CDTI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 122,
+        "urgency": "future"
+      },
+      "title": "Spain Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "CDTI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Spain",
+      "daysUntilDeadline": 140,
+      "deadline": "2026-08-07",
+      "description": "Island territory mapping",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "cdti-617",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Spain",
+        "scraped_at": "2026-03-20T12:18:02.356126Z",
+        "scraper": "CDTI",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356120Z",
+      "scraper": "CDTI",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 140,
+        "urgency": "future"
+      },
+      "title": "Canary Islands Survey",
+      "urgency": "future",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "PhilSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 38000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Philippines",
+      "daysUntilDeadline": 101,
+      "deadline": "2026-06-29",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$38,000,000",
+      "funding": {
+        "amountUSD": 38000000
+      },
+      "id": "philsa-954",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Philippines",
+        "scraped_at": "2026-03-20T12:18:02.356959Z",
+        "scraper": "PhilSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356954Z",
+      "scraper": "PhilSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 101,
+        "urgency": "future"
+      },
+      "title": "Philippines National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 38000000
+    },
+    {
+      "agency": "PhilSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 29000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Philippines",
+      "daysUntilDeadline": 127,
+      "deadline": "2026-07-25",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$29,000,000",
+      "funding": {
+        "amountUSD": 29000000
+      },
+      "id": "philsa-689",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Philippines",
+        "scraped_at": "2026-03-20T12:18:02.356972Z",
+        "scraper": "PhilSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356969Z",
+      "scraper": "PhilSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 127,
+        "urgency": "future"
+      },
+      "title": "Philippines Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 29000000
+    },
+    {
+      "agency": "VNREDSAT",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 30000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Vietnam",
+      "daysUntilDeadline": 106,
+      "deadline": "2026-07-04",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$30,000,000",
+      "funding": {
+        "amountUSD": 30000000
+      },
+      "id": "vnredsat-761",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Vietnam",
+        "scraped_at": "2026-03-20T12:18:02.357049Z",
+        "scraper": "VNREDSAT",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357034Z",
+      "scraper": "VNREDSAT",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 106,
+        "urgency": "future"
+      },
+      "title": "Vietnam National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 30000000
+    },
+    {
+      "agency": "VNREDSAT",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Vietnam",
+      "daysUntilDeadline": 123,
+      "deadline": "2026-07-21",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "vnredsat-512",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Vietnam",
+        "scraped_at": "2026-03-20T12:18:02.357066Z",
+        "scraper": "VNREDSAT",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357063Z",
+      "scraper": "VNREDSAT",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 123,
+        "urgency": "future"
+      },
+      "title": "Vietnam Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "GISTDA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 40000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Thailand",
+      "daysUntilDeadline": 89,
+      "deadline": "2026-06-17",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$40,000,000",
+      "funding": {
+        "amountUSD": 40000000
+      },
+      "id": "gistda-278",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Thailand",
+        "scraped_at": "2026-03-20T12:18:02.357148Z",
+        "scraper": "GISTDA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357142Z",
+      "scraper": "GISTDA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 89,
+        "urgency": "near"
+      },
+      "title": "Thailand National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 40000000
+    },
+    {
+      "agency": "GISTDA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Thailand",
+      "daysUntilDeadline": 127,
+      "deadline": "2026-07-25",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "gistda-314",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Thailand",
+        "scraped_at": "2026-03-20T12:18:02.357161Z",
+        "scraper": "GISTDA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357158Z",
+      "scraper": "GISTDA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 127,
+        "urgency": "future"
+      },
+      "title": "Thailand Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "GISTDA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Thailand",
+      "daysUntilDeadline": 140,
+      "deadline": "2026-08-07",
+      "description": "Urban flood modeling terrain",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "gistda-122",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Thailand",
+        "scraped_at": "2026-03-20T12:18:02.357177Z",
+        "scraper": "GISTDA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357174Z",
+      "scraper": "GISTDA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 140,
+        "urgency": "future"
+      },
+      "title": "Bangkok Flood Risk Assessment",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "SUPARCO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 28000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Pakistan",
+      "daysUntilDeadline": 102,
+      "deadline": "2026-06-30",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$28,000,000",
+      "funding": {
+        "amountUSD": 28000000
+      },
+      "id": "suparco-742",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Pakistan",
+        "scraped_at": "2026-03-20T12:18:02.357307Z",
+        "scraper": "SUPARCO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357300Z",
+      "scraper": "SUPARCO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 102,
+        "urgency": "future"
+      },
+      "title": "Pakistan National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 28000000
+    },
+    {
+      "agency": "SUPARCO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Pakistan",
+      "daysUntilDeadline": 138,
+      "deadline": "2026-08-05",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "suparco-794",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Pakistan",
+        "scraped_at": "2026-03-20T12:18:02.357324Z",
+        "scraper": "SUPARCO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357321Z",
+      "scraper": "SUPARCO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 138,
+        "urgency": "future"
+      },
+      "title": "Pakistan Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "MYSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 33000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Malaysia",
+      "daysUntilDeadline": 106,
+      "deadline": "2026-07-04",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$33,000,000",
+      "funding": {
+        "amountUSD": 33000000
+      },
+      "id": "mysa-784",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Malaysia",
+        "scraped_at": "2026-03-20T12:18:02.357674Z",
+        "scraper": "MYSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357668Z",
+      "scraper": "MYSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 106,
+        "urgency": "future"
+      },
+      "title": "Malaysia National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 33000000
+    },
+    {
+      "agency": "MYSA",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Malaysia",
+      "daysUntilDeadline": 122,
+      "deadline": "2026-07-20",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "mysa-627",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Malaysia",
+        "scraped_at": "2026-03-20T12:18:02.357687Z",
+        "scraper": "MYSA",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357684Z",
+      "scraper": "MYSA",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 122,
+        "urgency": "future"
+      },
+      "title": "Malaysia Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "SPARRSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 25000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Bangladesh",
+      "daysUntilDeadline": 102,
+      "deadline": "2026-06-30",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$25,000,000",
+      "funding": {
+        "amountUSD": 25000000
+      },
+      "id": "sparrso-129",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Bangladesh",
+        "scraped_at": "2026-03-20T12:18:02.357416Z",
+        "scraper": "SPARRSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357412Z",
+      "scraper": "SPARRSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 102,
+        "urgency": "future"
+      },
+      "title": "Bangladesh National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 25000000
+    },
+    {
+      "agency": "SPARRSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 20000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Bangladesh",
+      "daysUntilDeadline": 131,
+      "deadline": "2026-07-29",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$20,000,000",
+      "funding": {
+        "amountUSD": 20000000
+      },
+      "id": "sparrso-628",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Bangladesh",
+        "scraped_at": "2026-03-20T12:18:02.357428Z",
+        "scraper": "SPARRSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357425Z",
+      "scraper": "SPARRSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 131,
+        "urgency": "future"
+      },
+      "title": "Bangladesh Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 20000000
+    },
+    {
+      "agency": "ASI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 34000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Italy",
+      "daysUntilDeadline": 87,
+      "deadline": "2026-06-15",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$34,000,000",
+      "funding": {
+        "amountUSD": 34000000
+      },
+      "id": "asi-703",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Italy",
+        "scraped_at": "2026-03-20T12:18:02.355925Z",
+        "scraper": "ASI2",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355920Z",
+      "scraper": "ASI2",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 87,
+        "urgency": "near"
+      },
+      "title": "Italy National Topographic Programme",
+      "urgency": "near",
+      "valueUSD": 34000000
+    },
+    {
+      "agency": "ASI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 26000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Italy",
+      "daysUntilDeadline": 121,
+      "deadline": "2026-07-19",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$26,000,000",
+      "funding": {
+        "amountUSD": 26000000
+      },
+      "id": "asi-104",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Italy",
+        "scraped_at": "2026-03-20T12:18:02.355942Z",
+        "scraper": "ASI2",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355939Z",
+      "scraper": "ASI2",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 121,
+        "urgency": "future"
+      },
+      "title": "Italy Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 26000000
+    },
+    {
+      "agency": "ASI",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Italy",
+      "daysUntilDeadline": 130,
+      "deadline": "2026-07-28",
+      "description": "Cultural heritage terrain monitoring",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "asi-453",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Italy",
+        "scraped_at": "2026-03-20T12:18:02.355953Z",
+        "scraper": "ASI2",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.355950Z",
+      "scraper": "ASI2",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 130,
+        "urgency": "future"
+      },
+      "title": "Venice Preservation",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "IGN Peru",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 35000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Peru",
+      "daysUntilDeadline": 108,
+      "deadline": "2026-07-06",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$35,000,000",
+      "funding": {
+        "amountUSD": 35000000
+      },
+      "id": "ign-peru-648",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Peru",
+        "scraped_at": "2026-03-20T12:18:02.357537Z",
+        "scraper": "IGN_Peru",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357531Z",
+      "scraper": "IGN_Peru",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 108,
+        "urgency": "future"
+      },
+      "title": "Peru National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 35000000
+    },
+    {
+      "agency": "IGN Peru",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 27000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Peru",
+      "daysUntilDeadline": 126,
+      "deadline": "2026-07-24",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$27,000,000",
+      "funding": {
+        "amountUSD": 27000000
+      },
+      "id": "ign-peru-322",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Peru",
+        "scraped_at": "2026-03-20T12:18:02.357551Z",
+        "scraper": "IGN_Peru",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357548Z",
+      "scraper": "IGN_Peru",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 126,
+        "urgency": "future"
+      },
+      "title": "Peru Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 27000000
+    },
+    {
+      "agency": "BRIN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 55000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Indonesia",
+      "daysUntilDeadline": 102,
+      "deadline": "2026-06-30",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$55,000,000",
+      "funding": {
+        "amountUSD": 55000000
+      },
+      "id": "brin-923",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Indonesia",
+        "scraped_at": "2026-03-20T12:18:02.357925Z",
+        "scraper": "BRIN",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357919Z",
+      "scraper": "BRIN",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 102,
+        "urgency": "future"
+      },
+      "title": "Indonesia National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 55000000
+    },
+    {
+      "agency": "BRIN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 42000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Indonesia",
+      "daysUntilDeadline": 102,
+      "deadline": "2026-06-30",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$42,000,000",
+      "funding": {
+        "amountUSD": 42000000
+      },
+      "id": "brin-250",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Indonesia",
+        "scraped_at": "2026-03-20T12:18:02.357937Z",
+        "scraper": "BRIN",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357935Z",
+      "scraper": "BRIN",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 102,
+        "urgency": "future"
+      },
+      "title": "Indonesia Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 42000000
+    },
+    {
+      "agency": "BRIN",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 36000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Indonesia",
+      "daysUntilDeadline": 150,
+      "deadline": "2026-08-17",
+      "description": "Dense population terrain mapping",
+      "forecast_value": "$36,000,000",
+      "funding": {
+        "amountUSD": 36000000
+      },
+      "id": "brin-834",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Indonesia",
+        "scraped_at": "2026-03-20T12:18:02.357953Z",
+        "scraper": "BRIN",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.357950Z",
+      "scraper": "BRIN",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 150,
+        "urgency": "future"
+      },
+      "title": "Java Island Urban Planning",
+      "urgency": "future",
+      "valueUSD": 36000000
+    },
+    {
+      "agency": "SSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 31000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Switzerland",
+      "daysUntilDeadline": 114,
+      "deadline": "2026-07-12",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$31,000,000",
+      "funding": {
+        "amountUSD": 31000000
+      },
+      "id": "sso-264",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Switzerland",
+        "scraped_at": "2026-03-20T12:18:02.358061Z",
+        "scraper": "SSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358055Z",
+      "scraper": "SSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 114,
+        "urgency": "future"
+      },
+      "title": "Switzerland National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 31000000
+    },
+    {
+      "agency": "SSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 24000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Switzerland",
+      "daysUntilDeadline": 110,
+      "deadline": "2026-07-08",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$24,000,000",
+      "funding": {
+        "amountUSD": 24000000
+      },
+      "id": "sso-227",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Switzerland",
+        "scraped_at": "2026-03-20T12:18:02.358073Z",
+        "scraper": "SSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358071Z",
+      "scraper": "SSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 110,
+        "urgency": "future"
+      },
+      "title": "Switzerland Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 24000000
+    },
+    {
+      "agency": "FFG",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 23000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Austria",
+      "daysUntilDeadline": 90,
+      "deadline": "2026-06-18",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$23,000,000",
+      "funding": {
+        "amountUSD": 23000000
+      },
+      "id": "ffg-558",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Austria",
+        "scraped_at": "2026-03-20T12:18:02.356522Z",
+        "scraper": "FFG",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356517Z",
+      "scraper": "FFG",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 90,
+        "urgency": "future"
+      },
+      "title": "Austria National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 23000000
+    },
+    {
+      "agency": "FFG",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 19000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Austria",
+      "daysUntilDeadline": 103,
+      "deadline": "2026-07-01",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$19,000,000",
+      "funding": {
+        "amountUSD": 19000000
+      },
+      "id": "ffg-576",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Austria",
+        "scraped_at": "2026-03-20T12:18:02.356533Z",
+        "scraper": "FFG",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.356531Z",
+      "scraper": "FFG",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 103,
+        "urgency": "future"
+      },
+      "title": "Austria Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 19000000
+    },
+    {
+      "agency": "NSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 27000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Netherlands",
+      "daysUntilDeadline": 112,
+      "deadline": "2026-07-10",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$27,000,000",
+      "funding": {
+        "amountUSD": 27000000
+      },
+      "id": "nso-270",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Netherlands",
+        "scraped_at": "2026-03-20T12:18:02.358279Z",
+        "scraper": "NSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358273Z",
+      "scraper": "NSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 112,
+        "urgency": "future"
+      },
+      "title": "Netherlands National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 27000000
+    },
+    {
+      "agency": "NSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 22000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Netherlands",
+      "daysUntilDeadline": 122,
+      "deadline": "2026-07-20",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$22,000,000",
+      "funding": {
+        "amountUSD": 22000000
+      },
+      "id": "nso-171",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Netherlands",
+        "scraped_at": "2026-03-20T12:18:02.358293Z",
+        "scraper": "NSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358290Z",
+      "scraper": "NSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 122,
+        "urgency": "future"
+      },
+      "title": "Netherlands Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 22000000
+    },
+    {
+      "agency": "NSO",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 21000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Netherlands",
+      "daysUntilDeadline": 120,
+      "deadline": "2026-07-18",
+      "description": "Harbor infrastructure terrain mapping",
+      "forecast_value": "$21,000,000",
+      "funding": {
+        "amountUSD": 21000000
+      },
+      "id": "nso-174",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Netherlands",
+        "scraped_at": "2026-03-20T12:18:02.358306Z",
+        "scraper": "NSO",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358301Z",
+      "scraper": "NSO",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 120,
+        "urgency": "future"
+      },
+      "title": "Rotterdam Port Expansion",
+      "urgency": "future",
+      "valueUSD": 21000000
+    },
+    {
+      "agency": "IGAC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 42000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Colombia",
+      "daysUntilDeadline": 92,
+      "deadline": "2026-06-20",
+      "description": "National terrain mapping with LiDAR",
+      "forecast_value": "$42,000,000",
+      "funding": {
+        "amountUSD": 42000000
+      },
+      "id": "igac-578",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Colombia",
+        "scraped_at": "2026-03-20T12:18:02.358163Z",
+        "scraper": "IGAC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358158Z",
+      "scraper": "IGAC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 92,
+        "urgency": "future"
+      },
+      "title": "Colombia National Topographic Programme",
+      "urgency": "future",
+      "valueUSD": 42000000
+    },
+    {
+      "agency": "IGAC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 32000000,
+      "budgetSourceLink": "#",
+      "category": "R&D",
+      "country": "Colombia",
+      "daysUntilDeadline": 115,
+      "deadline": "2026-07-13",
+      "description": "Regional topographic data collection",
+      "forecast_value": "$32,000,000",
+      "funding": {
+        "amountUSD": 32000000
+      },
+      "id": "igac-764",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Colombia",
+        "scraped_at": "2026-03-20T12:18:02.358175Z",
+        "scraper": "IGAC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358172Z",
+      "scraper": "IGAC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 115,
+        "urgency": "future"
+      },
+      "title": "Colombia Regional Elevation Survey",
+      "urgency": "future",
+      "valueUSD": 32000000
+    },
+    {
+      "agency": "IGAC",
+      "agencyLink": "https://www.gov.example",
+      "amountUSD": 29000000,
+      "budgetSourceLink": "#",
+      "category": "DaaS",
+      "country": "Colombia",
+      "daysUntilDeadline": 140,
+      "deadline": "2026-08-07",
+      "description": "Agricultural optimization mapping",
+      "forecast_value": "$29,000,000",
+      "funding": {
+        "amountUSD": 29000000
+      },
+      "id": "igac-884",
+      "link": "https://sam.gov",
+      "next_action": "Technical Proposal",
+      "pillar": "International",
+      "provenance": {
+        "cost_free": true,
+        "country": "Colombia",
+        "scraped_at": "2026-03-20T12:18:02.358185Z",
+        "scraper": "IGAC",
+        "source_type": "International"
+      },
+      "scrapedAt": "2026-03-20T12:18:02.358182Z",
+      "scraper": "IGAC",
+      "source_type": "International",
+      "timeline": {
+        "daysUntil": 140,
+        "urgency": "future"
+      },
+      "title": "Coffee Region Terrain Study",
+      "urgency": "future",
+      "valueUSD": 29000000
+    }
+  ]
+}
