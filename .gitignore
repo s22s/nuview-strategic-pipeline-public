@@ -45,3 +45,10 @@ Thumbs.db
 *.tmp
 /tmp/
 data/processed/opportunities_validated.json
+data/opportunities.json
+data/processed/competitors.json
+data/processed/funding_flow.json
+data/processed/priority_matrix.csv
+data/processed/programs.json
+data/scraper_stats.json
+data/scraper_logs/
